@@ -4,7 +4,7 @@
 ```dataviewjs
 const folder = "00 - Daily Notes";
 const heading = "Gratitude & Pride";
-const yearFilter = "${year}";
+const yearFilter = "2026";
 let pages = dv.pages(folder)
     .filter(p => p.file.name.includes(yearFilter))
     .sort(p => p.file.name, 'desc');
