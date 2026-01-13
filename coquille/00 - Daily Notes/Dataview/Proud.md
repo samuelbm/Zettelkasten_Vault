@@ -5,12 +5,7 @@ const folder = "00 - Daily Notes";
 const heading = "Gratitude & Pride";
 const yearFilter = "2026";
 
-console.log(`1) ${folder}`);
-console.log(`2) ${dv.pages(folder)}`);
-
-let pages = dv.pages(folder).filter(p => p.file.name.includes(yearFilter)).sort(p => p.file.name, 'desc');
-
-console.log(`test1223`);
+let pages = dv.pages(`${folder}`).filter(p => p.file.name.includes(yearFilter)).sort(p => p.file.name, 'desc');
 
 let allBullets = [];
 
