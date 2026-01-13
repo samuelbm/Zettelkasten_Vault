@@ -60,12 +60,13 @@ const noteFilePath = `${yearFolderPath}/${noteName}`;
 await ensureFolderExists(yearFolderPath);
 await ensureFolderExists(monthFolderPath);
 
+// Move the note
+await tp.file.move(`${folderPath}/${noteName}`);
+
 // Add link to MOCs
 await appendToFile(`${yearsMocFilePath}`, `[[${yearFolderPath}]]`);
 await appendToFile(`${yearMocFilePath}`, `[[${monthFilePath}]]`);
 await appendToFile(`${monthFilePath}`, `[[${noteFilePath}]]`);
 
-// Move the note
-await tp.file.move(`${folderPath}/${noteName}`);
 
 %>
