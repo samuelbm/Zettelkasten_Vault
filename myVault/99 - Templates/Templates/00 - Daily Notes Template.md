@@ -38,7 +38,8 @@ const monthIndex = "01"//tp.date.now("MM");
 const monthStr = `${monthIndex} - ${monthText}`; 
 
 // Create folder path dynamically
-//
+//00 - Daily Notes
+//----->
 const basePath = `00 - Daily Notes`;
 const yearsFolderPath = `${basePath}/Years`;
 const yearsMocFilePath = `${yearsFolderPath}/Daily Notes Moc`;
