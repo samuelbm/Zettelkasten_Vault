@@ -27,7 +27,7 @@ async function ensureFolderExists(path) {
   }
 }
 
-// create folder if needed
+// Create folder if needed
 await ensureFolderExists(yearFolderPath);
 await ensureFolderExists(monthFolderPath);
 
