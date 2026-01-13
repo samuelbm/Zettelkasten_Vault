@@ -1,4 +1,2 @@
 
 [[Proud]]
-[[Proud]]
-[[Proud]]

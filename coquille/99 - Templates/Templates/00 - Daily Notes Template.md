@@ -115,9 +115,9 @@ const scriptProud = `
 \`\`\`dataviewjs
 const folder = "00 - Daily Notes";
 const heading = "Gratitude & Pride";
-const yearFilter = "\${year}"; // only show notes from this year
+const yearFilter = "\${year}";
 let pages = dv.pages(folder)
-    .filter(p => p.file.name.includes(yearFilter)) // only notes containing 2025
+    .filter(p => p.file.name.includes(yearFilter))
     .sort(p => p.file.name, 'desc');
 let allBullets = [];
 for (let p of pages) {
@@ -139,7 +139,7 @@ for (let p of pages) {
 }
 dv.list(allBullets);
 \`\`\`
-`;`
+`;
  
 const dataviewMocFileName = `Daily Notes Dataview MOC`;
 const dataviewMocFilePath = `${dataviewFolderPath}/${dataviewMocFileName}.md`;
