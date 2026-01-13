@@ -64,6 +64,8 @@ const yearsFolderPath = `${basePath}/Years`;
 const yearFolderPath = `${yearsFolderPath}/${year}`;
 const monthFolderPath = `${yearFolderPath}/${monthStr}`;
 
+//
+
 //Create File Path 
 const yearsMocFilePath = `${yearsFolderPath}/Daily Notes Moc.md`;
 const yearMocFilePath =`${yearFolderPath}/Daily Notes ${year} MOC.md`;
