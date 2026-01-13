@@ -34,4 +34,7 @@ await ensureFolderExists(monthFolderPath);
 // Move the note
 await tp.file.move(`${folderPath}/${noteName}`);
 
+// Add link to MOCs
+//
+
 %>
