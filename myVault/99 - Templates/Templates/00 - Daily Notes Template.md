@@ -6,7 +6,7 @@
 
 
 <%*
-// Variables
+// Date
 const dateStr = tp.date.now("YYYY-MM-DD"); 
 const year = tp.date.now("YYYY"); 
 const month = tp.date.now("MMMM"); 
