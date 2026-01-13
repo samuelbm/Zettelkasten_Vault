@@ -34,7 +34,7 @@ async function appendToFile(filePath, content) {
 const dateStr = "2026-01-01"//tp.date.now("YYYY-MM-DD"); 
 const year = "2026"//tp.date.now("YYYY"); 
 const monthText = "January"//tp.date.now("MMMM"); 
-const monthIndex = "01"//tp.date.now("MM");
+const monthIndex = "02"//tp.date.now("MM");
 const monthStr = `${monthIndex} - ${monthText}`; 
 
 // Create folder path dynamically
