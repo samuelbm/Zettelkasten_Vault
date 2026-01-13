@@ -45,7 +45,7 @@ const basePath = `00 - Daily Notes`;
 const yearsFolderPath = `${basePath}/Years`;
 
 const yearFolderPath = `${yearsFolderPath}/${year}`;
-const yearMocfilePath ${yearFolderPath}
+const yearMocfilePath `${yearFolderPath}`
 
 const monthFolderPath = `${yearFolderPath}/${month}`;
 
