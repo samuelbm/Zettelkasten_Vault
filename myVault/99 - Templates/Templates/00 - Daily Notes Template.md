@@ -104,9 +104,9 @@ const dataviewProudFilePath = `${baseFolderPath}/${dataviewProudFileName}.md`;
 await ensureFileExists(`${dataviewProudFilePath}`);
 //await appendToFile(`${dataviewProudFilePath}`, `[[${dailyNoteFileName}]]`); 
 
-//const dataviewMocFileName = `Daily Notes Dataview MOC`;
-//const dataviewMocFilePath = `${dataviewFolderPath}/dataviewMocFileName`;
-//await ensureFileExists(`${baseFolderPath}`);
+const dataviewMocFileName = `Daily Notes Dataview MOC`;
+const dataviewMocFilePath = `${dataviewFolderPath}/${dataviewMocFileName}`;
+await ensureFileExists(`${baseFolderPath}`);
 //await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); 
 
 
