@@ -55,9 +55,7 @@ const monthFolderPath = `${yearFolderPath}/${monthStr}`;
 
 const yearsMocFilePath = `${yearsFolderPath}/Daily Notes Moc`;
 const yearMocFilePath =`${yearFolderPath}/Daily Notes 2026 MOC`;
-
-
-const monthFilePath = `${monthFolderPath}/Daily Notes 2026 ${monthText} MOC`;
+const monthMocFilePath = `${monthFolderPath}/Daily Notes 2026 ${monthText} MOC`;
 
 const noteName = "Daily " + dateStr;
 const noteFilePath = `${yearFolderPath}/${noteName}`;
