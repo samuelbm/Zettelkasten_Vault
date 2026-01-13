@@ -23,11 +23,11 @@ for (let p of pages) {
     }
     if (inSection) {
 	    if (line.startsWith("#")) break;
-	    if (line.trim().startsWith("*") || line.trim().startsWith("-")) {
-        allBullets.push(`(${p.file.name}) ${line.replace(/^(\*|-)\s*/, "")}`);
-      }
-    }
-  }
+		if (line.trim().startsWith("*") || line.trim().startsWith("-")) {
+	        allBullets.push(`(${p.file.name}) ${line.replace(/^(\*|-)\s*/, "")}`);
+	    }
+	}
+}
 }
 
 dv.list(allBullets);
