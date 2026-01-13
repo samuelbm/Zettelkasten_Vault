@@ -78,8 +78,8 @@ const monthMocFilePath = `${monthFolderPath}/${monthMocFileName}.md`;
 const dailyNoteFilePath = `${monthFolderPath}/${dailyNoteFileName}`;
 
 // Create folder if needed
-const wasProudFileCreated = await ensureFolderExists(`${baseFolderPath}`);
-const wasProudFileCreated = await ensureFolderExists(`${yearsFolderPath}`);
+await ensureFolderExists(`${baseFolderPath}`);
+await ensureFolderExists(`${yearsFolderPath}`);
 await ensureFolderExists(`${yearFolderPath}`);
 await ensureFolderExists(`${monthFolderPath}`);
 
@@ -87,9 +87,9 @@ await ensureFolderExists(`${monthFolderPath}`);
 await tp.file.move(`${dailyNoteFilePath}`);
 
 //Create Moc Files if needed
-await ensureFileExists(`${yearsMocFilePath}`);
-await ensureFileExists(`${yearMocFilePath}`);
-await ensureFileExists(`${monthMocFilePath}`);
+const wasYearsMocFileCreated =  await ensureFileExists(`${yearsMocFilePath}`);
+const wasYearMocCreated = await ensureFileExists(`${yearMocFilePath}`);
+const wasFileCreated = await ensureFileExists(`${monthMocFilePath}`);
 
 // Add link to MOC Files
 await appendToFile(`${yearsMocFilePath}`, `[[${yearMocFileName}]]`);
