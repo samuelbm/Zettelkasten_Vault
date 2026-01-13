@@ -100,7 +100,7 @@ const dataviewFolderPath = `${baseFolderPath}/Dataview`;
 await ensureFolderExists(`${dataviewFolderPath}`);
 
 const dataviewProudFileName = `Proud`;
-const dataviewProudFilePath = `${baseFolderPath}/${dataviewProudFileName}.md`;
+const dataviewProudFilePath = `${dataviewFolderPath}/${dataviewProudFileName}.md`;
 await ensureFileExists(`${dataviewProudFilePath}`);
 //await appendToFile(`${dataviewProudFilePath}`, `[[${dailyNoteFileName}]]`); 
 
