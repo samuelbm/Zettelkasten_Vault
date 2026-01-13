@@ -78,14 +78,12 @@ await ensureFolderExists(monthFolderPath);
 // Move the note
 await tp.file.move(`${noteFilePath}`);
 
-//Create file if needed
-await ensureFileExists(`${}`);
-await ensureFileExists(`${}`);
-await ensureFileExists(`${}`);
+//Create Moc Files if needed
+await ensureFileExists(`${yearsMocFilePath}`);
+await ensureFileExists(`${yearMocFilePath}`);
+await ensureFileExists(`${monthFilePath}`);
 
-
-
-// Add link to MOCs
+// Add link to MOC Files
 await appendToFile(`${yearsMocFilePath}`, `[[${yearFolderPath}]]`);
 await appendToFile(`${yearMocFilePath}`, `[[${monthFilePath}]]`);
 await appendToFile(`${monthFilePath}`, `[[${noteFilePath}]]`);
