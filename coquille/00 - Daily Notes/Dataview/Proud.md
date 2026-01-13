@@ -12,6 +12,7 @@ let pages = dv.pages(folder)
 let allBullets = [];
 
 for (let p of pages) {
+  console.log(p);
   const content = await dv.io.load(p.file.path);
   const lines = content.split("\n");
 
