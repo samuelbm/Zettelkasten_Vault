@@ -140,6 +140,10 @@ for (let p of pages) {
 dv.list(allBullets);
 \`\`\`
 `;
+if (wasYearMocCreated) {
+	await appendToFile(`${dataviewProudFilePath}`, `# ${year}`);
+	await appendToFile(`${dataviewProudFilePath}`, `${scriptProud}`); 
+}
  
 const dataviewMocFileName = `Daily Notes Dataview MOC`;
 const dataviewMocFilePath = `${dataviewFolderPath}/${dataviewMocFileName}.md`;
