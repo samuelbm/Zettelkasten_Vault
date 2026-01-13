@@ -1,4 +1,7 @@
 {
   "showLineNumber": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "03 - Permanent Notes",
+  "attachmentFolderPath": "98 - Files"
 }
