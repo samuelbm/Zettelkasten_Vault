@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Templates/Templates/00 - Daily Notes Template.md",
+                "file": "00 - Daily Notes/Years/2026/Daily Notes 2026 MOC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 - Daily Notes Template"
+              "title": "Daily Notes 2026 MOC"
             }
           }
         ]
@@ -183,15 +183,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e869bffa9caa7a36",
+  "active": "f6408a460a94aa58",
   "lastOpenFiles": [
-    "00 - Daily Notes/Years/2026/Daily Notes 2026 MOC.md",
     "00 - Daily Notes/Years/Daily Notes Moc.md",
     "99 - Templates/Templates/00 - Daily Notes Template.md",
-    "00 - Daily Notes/Years/2026/02 - February/Daily Notes 2026 February MOC.md",
+    "00 - Daily Notes/Years/2026/Daily Notes 2026 MOC.md",
     "00 - Daily Notes/Years/2026/02 - February",
     "00 - Daily Notes/Years/2026",
     "00 - Daily Notes/Years",
+    "00 - Daily Notes/Years/2026/02 - February/Daily 2026-02-05.md",
+    "00 - Daily Notes/Years/2026/02 - February/Daily Notes 2026 February MOC.md",
     "00 - Daily Notes/Years/2026/02 - February/Daily Notes 2026 February MOC.md/Daily 2026-02-05.md",
     "00 - Daily Notes/Years/2026/02 - February/Daily Notes 2026 February MOC.md/Daily 2026-02-05.md",
     "00 - Daily Notes/Dataview/Daily Notes Dataview MOC.md",
@@ -218,8 +219,6 @@
     "00 - Daily Notes/Years/2026/Daily 2026-01-02.md",
     "00 - Daily Notes/Daily Notes MOC.md",
     "00 - Daily Notes/Years/2026/Daily 2026-01-01.md",
-    "00 - Daily Notes/Years/2026/01 - 01",
-    "00 - Daily/Untitled.md",
-    "Untitled.md"
+    "00 - Daily Notes/Years/2026/01 - 01"
   ]
 }

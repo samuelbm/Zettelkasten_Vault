@@ -68,7 +68,7 @@ const monthFolderPath = `${yearFolderPath}/${monthStr}`;
 const yearsMocFilePath = `${yearsFolderPath}/Daily Notes Moc.md`;
 const yearMocFilePath =`${yearFolderPath}/Daily Notes ${year} MOC.md`;
 const monthMocFilePath = `${monthFolderPath}/Daily Notes ${year} ${month} MOC.md`;
-const dailyNoteFilePath = `${monthMocFilePath}/Daily ${dateStr}`;
+const dailyNoteFilePath = `${monthFolderPath}/Daily ${dateStr}`;
 
 // Create folder if needed
 await ensureFolderExists(yearsFolderPath);
