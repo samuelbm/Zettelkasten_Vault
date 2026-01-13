@@ -10,8 +10,8 @@ let pages = dv.pages(folder)
   .filter(p => p.file.name.includes(yearFilter))
   .sort(p => p.file.name, 'desc');
 
-console.log(``folder);
-console.log(pages);
+console.log(`${folder}`);
+console.log(`${pages}`);
 
 let allBullets = [];
 
