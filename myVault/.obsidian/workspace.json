@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Templates/Templates/00 - Daily Notes Template.md",
+                "file": "99 - Templates/Meta Templates/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 - Daily Notes Template"
+              "title": "Untitled"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "8c5862e0bc218c27",
   "lastOpenFiles": [
-    "00 - Daily Notes/Daily Notes MOC.md",
     "99 - Templates/Templates/00 - Daily Notes Template.md",
+    "99 - Templates/Meta Templates/Untitled.md",
+    "00 - Daily Notes/Daily Notes MOC.md",
     "00 - Daily/Untitled.md",
     "Untitled.md",
     "00 - Daily Notes/Dataview/Daily Notes Dataview MOC.md",
