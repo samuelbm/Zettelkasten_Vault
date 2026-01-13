@@ -91,6 +91,8 @@ await tp.file.move(`${dailyNoteFilePath}`);
 await ensureFileExists(`${yearsMocFilePath}`);
 await ensureFileExists(`${yearMocFilePath}`);
 await ensureFileExists(`${monthMocFilePath}`);
+await ensureFileExists(`${baseFolderPath}/Dataview/Daily Notes Dat`);
+
 
 // Add link to MOC Files
 await appendToFile(`${yearsMocFilePath}`, `[[${yearMocFileName}]]`);
