@@ -107,7 +107,7 @@ if (wasYearMocCreated) {
 	const scriptProud = "```dataviewjs
 	const folder = "00 - Daily Notes";
 	const heading = "Thales vacation, sick days and personal days";
-	const yearFilter = "2026"; // only show notes from this year
+	const yearFilter = ${year}; // only show notes from this year
 	
 	let pages = dv.pages(`"${folder}"`)
 	    .filter(p => p.file.name.includes(yearFilter)) // only notes containing 2025
