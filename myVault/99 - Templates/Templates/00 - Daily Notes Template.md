@@ -139,7 +139,7 @@ if (wasYearMocCreated) {
 	\`\`\`
 	`;
 	await appendToFile(`${dataviewProudFilePath}`, `# ${year}`);
-	await appendToFile(`${dataviewProudFilePath}`, `# test`); 
+	await appendToFile(`${dataviewProudFilePath}`, `test`); 
 }
  
 const dataviewMocFileName = `Daily Notes Dataview MOC`;
