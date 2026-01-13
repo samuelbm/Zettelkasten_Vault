@@ -114,33 +114,36 @@ const wasProudFileCreated = await ensureFileExists(`${dataviewProudFilePath}`);
 const scriptProud = `\`\`\`dataviewjs
 const folder = "00 - Daily Notes";
 const heading = "Gratitude & Pride";
-const yearFilter = `\${year}`;
+const yearFilter = "2026"; // or replace with a variable if needed
 
-let pages = dv.pages(folder)
+// Get all pages in the folder
+let pages = dv.pages(`"${folder}"`)
     .filter(p => p.file.name.includes(yearFilter))
     .sort(p => p.file.name, 'desc');
 
 let allBullets = [];
 
+// Loop through pages
 for (let p of pages) {
     const content = await dv.io.load(p.file.path);
     const lines = content.split("\n");
 
     let inSection = false;
     for (let line of lines) {
-        if (line.trim() === `# \${heading}`) {
+        if (line.trim() === `# ${heading}`) {
             inSection = true;
             continue;
         }
         if (inSection) {
-            if (line.startsWith("#")) break;
+            if (line.startsWith("#")) break; // end of section
             if (line.trim().startsWith("*") || line.trim().startsWith("-")) {
-                allBullets.push(`(\${p.file.name}) \${line.replace(/^(\*|-)\s*/, "")}`);
+                allBullets.push(`(${p.file.name}) ${line.replace(/^(\*|-)\s*/, "")}`);
             }
         }
     }
 }
 
+// Output the bullets
 dv.list(allBullets);
 \`\`\``;
 if (wasYearMocCreated) {
