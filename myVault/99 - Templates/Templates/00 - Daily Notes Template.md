@@ -104,6 +104,7 @@ const dataviewProudFileName = `Proud`;
 const dataviewProudFilePath = `${dataviewFolderPath}/${dataviewProudFileName}.md`;
 const wasProudFileCreated = await ensureFileExists(`${dataviewProudFilePath}`);
 if (wasYearMocCreated) {
+		
 	await appendToFile(`${dataviewProudFilePath}`, `# allo123`);
 	await appendToFile(`${dataviewProudFilePath}`, "test"); 
 }
