@@ -76,7 +76,7 @@ await ensureFolderExists(yearFolderPath);
 await ensureFolderExists(monthFolderPath);
 
 // Move the note
-await tp.file.move(`${noteFilePath}`);
+await tp.file.move(`${dailyNoteFilePath}`);
 
 //Create Moc Files if needed
 //await ensureFileExists(`${yearsMocFilePath}`);
