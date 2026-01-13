@@ -1,4 +1,3 @@
-<%*
 async function appendToFile(filePath, content) {
   // Get the file object
   const file = app.vault.getAbstractFileByPath(filePath);
