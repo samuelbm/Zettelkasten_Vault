@@ -72,9 +72,9 @@ const dailyNoteFileName = `Daily ${dateStr}`;
 
 
 //Create File Path 
-const yearsMocFilePath = `${yearsFolderPath}/${yearsMocFileName}`;
-const yearMocFilePath =`${yearFolderPath}/${yearMocFileName}`;
-const monthMocFilePath = `${monthFolderPath}/${monthMocFileName}`;
+const yearsMocFilePath = `${yearsFolderPath}/${yearsMocFileName}.md`;
+const yearMocFilePath =`${yearFolderPath}/${yearMocFileName}.md`;
+const monthMocFilePath = `${monthFolderPath}/${monthMocFileName}.md`;
 const dailyNoteFilePath = `${monthFolderPath}/${dailyNoteFileName}`;
 
 // Create folder if needed
