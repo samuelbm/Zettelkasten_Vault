@@ -79,7 +79,9 @@ await ensureFolderExists(monthFolderPath);
 await tp.file.move(`${noteFilePath}`);
 
 //Create file if needed
-await ensureFileExists(yearsFolderPath);
+await ensureFileExists(`${}`);
+await ensureFileExists(`${}`);
+await ensureFileExists(`${}`);
 
 
 
