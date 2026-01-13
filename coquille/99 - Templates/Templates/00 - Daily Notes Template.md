@@ -116,7 +116,7 @@ const folder = "00 - Daily Notes";
 const heading = "Gratitude & Pride";
 const yearFilter = `${year}`;
 
-let pages = dv.pages(`"${folder}"`)
+let pages = dv.pages(folder)
     .filter(p => p.file.name.includes(yearFilter))
     .sort(p => p.file.name, 'desc');
 
