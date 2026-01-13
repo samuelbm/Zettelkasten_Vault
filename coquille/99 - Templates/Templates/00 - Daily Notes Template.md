@@ -128,14 +128,14 @@ for (let p of pages) {
 
     let inSection = false;
     for (let line of lines) {
-        if (line.trim() === `# ${heading}`) {
+        if (line.trim() === `# \${heading}`) {
             inSection = true;
             continue;
         }
         if (inSection) {
             if (line.startsWith("#")) break;
             if (line.trim().startsWith("*") || line.trim().startsWith("-")) {
-                allBullets.push(`(${p.file.name}) ${line.replace(/^(\*|-)\s*/, "")}`);
+                allBullets.push(`(\${p.file.name}) \${line.replace(/^(\*|-)\s*/, "")}`);
             }
         }
     }
