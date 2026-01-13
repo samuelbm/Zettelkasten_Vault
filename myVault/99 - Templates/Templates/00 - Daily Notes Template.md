@@ -22,7 +22,7 @@ const noteFilePath = `${yearFolderPath}/${noteName}`;
 
 
 
-
+// Template
 async function ensureFolder(path) {
   const folder = app.vault.getAbstractFileByPath(path);
   if (!folder) {
@@ -30,7 +30,7 @@ async function ensureFolder(path) {
   }
 }
 
-
+await ensureFolder(yearFolderPath);
 
 
 // Move the note
