@@ -143,10 +143,6 @@ for (let p of pages) {
 
 dv.list(allBullets);
 \`\`\``;
-
-// Output the bullets
-dv.list(allBullets);
-\`\`\``;
 if (wasYearMocCreated) {
 	await appendToFile(`${dataviewProudFilePath}`, `# ${year}`);
 	await appendToFile(`${dataviewProudFilePath}`, `${scriptProud}`); 
