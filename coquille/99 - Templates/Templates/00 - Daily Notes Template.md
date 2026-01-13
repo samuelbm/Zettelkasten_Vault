@@ -111,12 +111,13 @@ await ensureFolderExists(`${dataviewFolderPath}`);
 const dataviewProudFileName = `Proud`;
 const dataviewProudFilePath = `${dataviewFolderPath}/${dataviewProudFileName}.md`;
 const wasProudFileCreated = await ensureFileExists(`${dataviewProudFilePath}`);
-const scriptProud = ````dataviewjs
+const scriptProud = `
+```dataviewjs
 const folder = "00 - Daily Notes";
 const heading = "Gratitude & Pride";
-const yearFilter = "2026"; // only show notes from this year
+const yearFilter = `${year}`; // only show notes from this year
 
-let pages = dv.pages(`"${folder}"`)
+let pages = dv.pages(folder)
     .filter(p => p.file.name.includes(yearFilter)) // only notes containing 2025
     .sort(p => p.file.name, 'desc');
 
