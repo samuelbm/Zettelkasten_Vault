@@ -1,7 +1,7 @@
 
 # 2026
 ```dataviewjs
-const folder = "00 - Daily Notes/Years/2026/01 - January 2026";
+const folder = "00 - Daily Notes";
 const heading = "Gratitude & Pride";
 const yearFilter = "2026";
 
