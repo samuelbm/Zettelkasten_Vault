@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Daily/Untitled.md",
+                "file": "99 - Templates/Templates/00 - Daily Notes Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "00 - Daily Notes Template"
             }
           }
         ]
@@ -183,15 +183,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8c5862e0bc218c27",
+  "active": "f6408a460a94aa58",
   "lastOpenFiles": [
-    "99 - Templates/Templates/00 - Daily Notes Template.md",
     "00 - Daily/Untitled.md",
+    "99 - Templates/Templates/00 - Daily Notes Template.md",
     "Untitled.md",
-    "00 - Daily/Daily Notes MOC.md",
-    "00 - Daily/Dataview/Daily Notes Dataview MOC.md",
-    "00 - Daily/Years",
-    "00 - Daily/Dataview",
+    "00 - Daily Notes/Daily Notes MOC.md",
+    "00 - Daily Notes/Dataview/Daily Notes Dataview MOC.md",
+    "00 - Daily Notes/Years",
+    "00 - Daily Notes/Dataview",
     "99 - Templates/Templates",
     "99 - Templates/Meta Templates",
     "99 - Templates/00 - Daily Notes Template",
