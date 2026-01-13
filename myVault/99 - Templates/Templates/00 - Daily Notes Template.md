@@ -72,10 +72,10 @@ const dailyNoteFileName = `Daily ${dateStr}`;
 
 
 //Create File Path 
-const yearsMocFilePath = `${yearsFolderPath}/${}`;
-const yearMocFilePath =`${yearFolderPath}/Daily Notes ${year} MOC.md`;
-const monthMocFilePath = `${monthFolderPath}/Daily Notes ${year} ${month} MOC.md`;
-const dailyNoteFilePath = `${monthFolderPath}/Daily ${dateStr}`;
+const yearsMocFilePath = `${yearsFolderPath}/${yearsMocFileName}`;
+const yearMocFilePath =`${yearFolderPath}/${yearMocFileName}`;
+const monthMocFilePath = `${monthFolderPath}/${monthMocFileName}`;
+const dailyNoteFilePath = `${monthFolderPath}/${dailyNoteFileName}`;
 
 // Create folder if needed
 await ensureFolderExists(yearsFolderPath);
@@ -91,7 +91,7 @@ await ensureFileExists(`${yearMocFilePath}`);
 await ensureFileExists(`${monthMocFilePath}`);
 
 // Add link to MOC Files
-await appendToFile(`${yearsMocFilePath}`, `[[${yearMocFilePath}]]`);
-await appendToFile(`${yearMocFilePath}`, `[[${monthMocFilePath}]]`);
-await appendToFile(`${monthMocFilePath}`, `[[${noteFilePath}]]`); 
+await appendToFile(`${yearsMocFilePath}`, `[[${yearMocFileName}]]`);
+await appendToFile(`${yearMocFilePath}`, `[[${monthMocFileName}]]`);
+await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); 
 %>
