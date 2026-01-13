@@ -40,7 +40,7 @@ const dateStr = "2026-01-01"//tp.date.now("YYYY-MM-DD");
 const year = "2026"//tp.date.now("YYYY"); 
 const monthText = "January"//tp.date.now("MMMM"); 
 const monthIndex = "January"//tp.date.now("MM");
-const monthStr = `{monthIndex} - {monthIndex}`; 
+const monthStr = `${monthIndex} - ${monthIndex}`; 
 
 // Create folder path dynamically
 const basePath = `00 - Daily Notes`;
@@ -51,7 +51,7 @@ const yearFolderPath = `${yearsFolderPath}/${year}`;
 const yearMocFilePath =`${yearFolderPath}/Daily Notes 2026 MOC`;
 
 const monthFolderPath = `${yearFolderPath}/${monthStr}`;
-const monthMocFilePath = `${yearFolderPath}/${month}`;
+const monthMocFilePath = `${monthFolderPath}/${month}`;
 
 const noteName = "Daily " + dateStr;
 const noteFilePath = `${yearFolderPath}/${noteName}`;
