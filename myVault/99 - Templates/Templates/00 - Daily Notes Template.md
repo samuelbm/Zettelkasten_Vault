@@ -1,6 +1,6 @@
 ---
 type: Daily
-id: 20260101212042
+id: <% tp.date.now("YYYYMMDDHHmmss") %>
 tags:
   - daily
 ---

@@ -16,7 +16,7 @@
               "state": {
                 "file": "99 - Templates/Templates/00 - Daily Notes Template.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "00 - Daily Notes Template"
