@@ -44,8 +44,8 @@ async function ensureFileExists(filePath, content = "") {
 // Date
 const dateStr = "2026-01-02";//tp.date.now("YYYY-MM-DD"); 
 const year = "2026";//tp.date.now("YYYY"); 
-const monthText = "January";//tp.date.now("MMMM"); 
-const month = "01";//tp.date.now("MM");
+const month = "January";//tp.date.now("MMMM"); 
+const monthIndex = "01";//tp.date.now("MM");
 const monthStr = `${monthIndex} - ${month}`; 
 
 // File Hierarchy
@@ -71,12 +71,12 @@ const monthMocFilePath = `${monthFolderPath}/Daily Notes ${year} ${month} MOC`;
 const dailyNoteFilePath = `${yearFolderPath}/Daily " + ${dateStr}`;
 
 // Create folder if needed
-//await ensureFolderExists(yearsFolderPath);
-//await ensureFolderExists(yearFolderPath);
-//await ensureFolderExists(monthFolderPath);
+await ensureFolderExists(yearsFolderPath);
+await ensureFolderExists(yearFolderPath);
+await ensureFolderExists(monthFolderPath);
 
 // Move the note
-//await tp.file.move(`${noteFilePath}`);
+await tp.file.move(`${noteFilePath}`);
 
 //Create Moc Files if needed
 //await ensureFileExists(`${yearsMocFilePath}`);
