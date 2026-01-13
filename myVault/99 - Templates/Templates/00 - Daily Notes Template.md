@@ -41,6 +41,8 @@ const monthStr = `${monthIndex} - ${monthText}`;
 //00 - Daily Notes
 //----->Years
 //----------->2026
+//----------------->January
+//----------------------->
 //
 const basePath = `00 - Daily Notes`;
 const yearsFolderPath = `${basePath}/Years`;
