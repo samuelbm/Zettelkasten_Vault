@@ -84,7 +84,7 @@ await ensureFileExists(`${yearMocFilePath}`);
 await ensureFileExists(`${monthFilePath}`);
 
 // Add link to MOC Files
-await appendToFile(`${yearsMocFilePath}`, `[[${yearFolderPath}]]`);
+await appendToFile(`${yearsMocFilePath}`, `[[${yearMocFilePath}]]`);
 await appendToFile(`${yearMocFilePath}`, `[[${monthFilePath}]]`);
 await appendToFile(`${monthFilePath}`, `[[${noteFilePath}]]`);
 %>
