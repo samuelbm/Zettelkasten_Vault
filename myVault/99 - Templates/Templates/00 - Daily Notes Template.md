@@ -19,9 +19,6 @@ const monthFolderPath = `${yearFolderPath}/${month}`;
 const noteName = "Daily " + dateStr;
 const noteFilePath = `${yearFolderPath}/${noteName}`;
 
-
-
-
 // Template
 async function ensureFolderExists(path) {
   const folder = app.vault.getAbstractFileByPath(path);
@@ -30,8 +27,9 @@ async function ensureFolderExists(path) {
   }
 }
 
+// create folder if needed
 await ensureFolderExists(yearFolderPath);
-await ensureFolderExists()
+await ensureFolderExists(monthFolderPath);
 
 // Move the note
 await tp.file.move(`${folderPath}/${noteName}`);
