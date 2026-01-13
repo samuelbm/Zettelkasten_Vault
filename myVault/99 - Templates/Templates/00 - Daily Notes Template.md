@@ -30,6 +30,17 @@ async function appendToFile(filePath, content) {
   await app.vault.modify(file, newContent);
 }
 
+//Template 3
+async function ensureFileExists(filePath, content = "") {
+  // Check if file exists
+  let file = app.vault.getAbstractFileByPath(filePath);
+  
+  if (!file) {
+    // Create the file with optional initial content
+    await app.vault.create(filePath, content);
+  }
+}
+
 // Date
 const dateStr = "2026-01-02"//tp.date.now("YYYY-MM-DD"); 
 const year = "2026"//tp.date.now("YYYY"); 
