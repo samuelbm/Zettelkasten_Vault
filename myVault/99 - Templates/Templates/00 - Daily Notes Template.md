@@ -97,7 +97,8 @@ await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`);
 
 
 //Add Dataview and Dataview MOC
-const dataviewFolderPath = 
+const dataviewFolderPath = `${baseFolderPath}/`;
+const dataview
 
 
 await ensureFolderExists(`${baseFolderPath}/Dataview`);
