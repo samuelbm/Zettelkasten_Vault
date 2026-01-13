@@ -64,10 +64,11 @@ await ensureFolderExists(yearsFolderPath);
 await ensureFolderExists(yearFolderPath);
 await ensureFolderExists(monthFolderPath);
 
-//Create file if nee
-
 // Move the note
 await tp.file.move(`${noteFilePath}`);
+
+//Create file if needed
+
 
 // Add link to MOCs
 await appendToFile(`${yearsMocFilePath}`, `[[${yearFolderPath}]]`);
