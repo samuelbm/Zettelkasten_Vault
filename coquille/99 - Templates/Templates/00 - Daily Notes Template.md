@@ -4,10 +4,33 @@ id: <% tp.date.now("YYYYMMDDHHmmss") %>
 tags:
   - daily
 ---
+# Goal
+- [ ] TBD
+
+# Daily activity
+- [ ] weigh-in
+- [ ] meditation
+- [ ] respiration
+- [ ] miracle morning
+- [ ] musculation
+- [ ] cardio
 # Gratitude & Pride
-* test1
-* test2
-* test3
+* 
+# Accomplishments
+* 
+
+# Thales
+## Thales activity log 
+- [ ] 
+
+## Thales Timesheet
+* 
+
+## Thales vacation, sick days and personal days
+* 
+
+## Thales things done (for performance review)
+* 
 <%*
 // Templates
 //Templates 1
