@@ -108,8 +108,4 @@ const dataviewMocFileName = `Daily Notes Dataview MOC`;
 const dataviewMocFilePath = `${dataviewFolderPath}/${dataviewMocFileName}`;
 await ensureFileExists(`${dataviewMocFilePath}`);
 //await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); 
-
-
-
-
 %>
