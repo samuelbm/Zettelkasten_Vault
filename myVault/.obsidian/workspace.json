@@ -35,7 +35,8 @@
               "title": "ensureFileExists"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,13 +198,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8c5862e0bc218c27",
+  "active": "17c4ed77cc158196",
   "lastOpenFiles": [
     "03 - Permanent Notes/Untitled 1.md",
+    "99 - Templates/Templates/00 - Daily Notes Template.md",
     "99 - Templates/Meta Templates/appendTOFile.md",
     "99 - Templates/Meta Templates/ensureFileExists.md",
     "99 - Templates/Meta Templates/ensureFolderExists.md",
-    "99 - Templates/Templates/00 - Daily Notes Template.md",
     "00 - Daily Notes/Years/2026/Daily 2026-01-02.md",
     "00 - Daily Notes/Daily Notes MOC.md",
     "03 - Permanent Notes/Untitled.md",
