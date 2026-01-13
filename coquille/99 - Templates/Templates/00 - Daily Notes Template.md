@@ -4,20 +4,10 @@ id: <% tp.date.now("YYYYMMDDHHmmss") %>
 tags:
   - daily
 ---
-# Goal 
-- [ ] TBD
-
-# Daily activity
-- [ ] weigh-in
-- [ ] meditation
-- [ ] respiration
-- [ ] miracle morning
-- [ ] musculation
-- [ ] cardio
 # Gratitude & Pride
-
-
-
+* test1
+* test2
+* test3
 <%*
 // Templates
 //Templates 1
