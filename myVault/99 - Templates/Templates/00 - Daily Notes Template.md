@@ -14,8 +14,9 @@ const month = tp.date.now("MMMM");
 // Create folder path dynamically
 const basePath = `00 - Daily Notes`;
 const yearsFolderPath = `${basePath}/Years`;
-const yearFolderPath = `${yearsFolderPath}/$yea`;
-const month
+const yearFolderPath = `${yearsFolderPath}/${year}`;
+const month = `${yearFolderPath}/${month}`;
+filename = 
 const folderPath = `00 - Daily Notes/${year}/${month}`;
 
 // New note name
