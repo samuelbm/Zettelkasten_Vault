@@ -22,8 +22,8 @@ for (let p of pages) {
       continue;
     }
     if (inSection) {
-      if (line.startsWith("#")) break;
-      if (line.trim().startsWith("*") || line.trim().startsWith("-")) {
+	    if (line.startsWith("#")) break;
+	    if (line.trim().startsWith("*") || line.trim().startsWith("-")) {
         allBullets.push(`(${p.file.name}) ${line.replace(/^(\*|-)\s*/, "")}`);
       }
     }
