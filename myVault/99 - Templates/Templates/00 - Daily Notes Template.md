@@ -43,8 +43,8 @@ const monthStr = `${monthIndex} - ${monthText}`;
 //----------->2026
 //----------------->January
 //----------------------->Daily 2026-01-01
-//----------------------->Daily NOtes
-//
+//----------------------->Daily Notes 2026 January MOC
+
 const basePath = `00 - Daily Notes`;
 const yearsFolderPath = `${basePath}/Years`;
 const yearsMocFilePath = `${yearsFolderPath}/Daily Notes Moc`;
