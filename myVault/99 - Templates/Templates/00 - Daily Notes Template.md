@@ -44,8 +44,8 @@ async function ensureFileExists(filePath, content = "") {
 // Date
 const dateStr = "2026-01-02";//tp.date.now("YYYY-MM-DD"); 
 const year = "2026";//tp.date.now("YYYY"); 
-const monthText; = "January"//tp.date.now("MMMM"); 
-const month = "01"//tp.date.now("MM");
+const monthText = "January";//tp.date.now("MMMM"); 
+const month = "01";//tp.date.now("MM");
 const monthStr = `${monthIndex} - ${month}`; 
 
 // File Hierarchy
