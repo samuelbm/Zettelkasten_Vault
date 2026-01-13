@@ -23,6 +23,17 @@ const noteFilePath = `${yearFolderPath}/${noteName}`;
 
 
 
+async function ensureFolder(path) {
+  const folder = app.vault.getAbstractFileByPath(path);
+  if (!folder) {
+    await app.vault.createFolder(path);
+  }
+}
+
+
+
+
 // Move the note
 await tp.file.move(`${folderPath}/${noteName}`);
+
 %>
