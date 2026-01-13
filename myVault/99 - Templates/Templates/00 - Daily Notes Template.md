@@ -51,6 +51,8 @@ const yearFolderPath = `${yearsFolderPath}/${year}`;
 const yearMocFilePath =`${yearFolderPath}/Daily Notes 2026 MOC`;
 
 const monthFolderPath = `${yearFolderPath}/${monthStr}`;
+const mongthFilePath = `${monthFolderPath}/${monthStr}`;
+
 const noteName = "Daily " + dateStr;
 const noteFilePath = `${yearFolderPath}/${noteName}`;
 
@@ -60,7 +62,7 @@ await ensureFolderExists(monthFolderPath);
 
 // Add link to MOCs
 await appendToFile(`${yearsMocFilePath}`, `[[${yearsMocFilePath}]]`);
-await appendToFile(`${}`, `[[${}]]`);
+await appendToFile(`${yearMocFilePath}`, `[[${}]]`);
 await appendToFile(`${}`, `[[${}]]`);
 
 // Move the note
