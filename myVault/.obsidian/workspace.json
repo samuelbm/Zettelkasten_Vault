@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Templates/Templates/00 - Daily Notes Template.md",
+                "file": "00 - Daily Notes/Years/2027/05 - May - 2027/Daily 2027-05-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 - Daily Notes Template"
+              "title": "Daily 2027-05-10"
             }
           }
         ]
@@ -201,8 +201,16 @@
   },
   "active": "fa644572a2cd1e42",
   "lastOpenFiles": [
-    "00 - Daily Notes/Years/2026/04 - April - 2026/Daily 2026-04-10.md",
     "99 - Templates/Templates/00 - Daily Notes Template.md",
+    "00 - Daily Notes/Years/2027/05 - May - 2027/Daily Notes 2027 May MOC.md",
+    "00 - Daily Notes/Years/2027/05 - May - 2027",
+    "00 - Daily Notes/Years/2027/05 - May - 2027/Daily 2027-05-10.md",
+    "00 - Daily Notes/Years/2027/04 - April - 2027/Daily 2027-04-10.md",
+    "00 - Daily Notes/Years/2027/04 - April - 2027/Daily Notes 2027 April MOC.md",
+    "00 - Daily Notes/Years/2027/Daily Notes 2027 MOC.md",
+    "00 - Daily Notes/Years/2027/04 - April - 2027",
+    "00 - Daily Notes/Years/2027",
+    "00 - Daily Notes/Years/2026/04 - April - 2026/Daily 2026-04-10.md",
     "00 - Daily Notes/Years/2026/04 - April - 2026/Daily Notes 2026 April MOC.md",
     "00 - Daily Notes/Years/2026/04 - April - 2026",
     "00 - Daily Notes/Years/2026/03 - March - 2026/Daily 2026-03-09.md",
@@ -228,14 +236,6 @@
     "00 - Daily Notes/Years/2026/02 - February/Daily Notes 2026 February MOC.md/Daily 2026-02-05.md",
     "00 - Daily Notes/Years/2026/02 - February/Daily Notes 2026 February MOC.md/Daily 2026-02-05.md",
     "00 - Daily Notes/Dataview/Daily Notes Dataview MOC.md",
-    "00 - Daily Notes/test.md",
-    "00 - Daily Notes/Years/2026/02 - February/Daily Notes 2026 February MOC/Daily 2026-02-05.md",
-    "00 - Daily Notes/Years/2026/02 - February/Daily Notes 2026 February MOC/Daily 2026-02-04.md",
-    "00 - Daily Notes/Years/Daily Notes Moc",
-    "00 - Daily Notes/Years/2026/02 - February/Daily Notes 2026 February MOC/Daily 2026-02-03.md",
-    "00 - Daily Notes/Years/2026/02 - February/Daily Notes 2026 February MOC",
-    "00 - Daily Notes/Years/2026/01 - February/Daily Notes 2026 February MOC/Daily 2026-02-03.md",
-    "00 - Daily Notes/Years/2026/01 - February/Daily Notes 2026 February MOC",
-    "00 - Daily Notes/Years/2026/01 - January/Daily Notes 2026 January MOC/Daily 2026-01-03.md"
+    "00 - Daily Notes/test.md"
   ]
 }
