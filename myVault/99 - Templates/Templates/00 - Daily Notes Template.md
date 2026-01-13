@@ -37,7 +37,7 @@ const monthText = "January"//tp.date.now("MMMM");
 const month = "01"//tp.date.now("MM");
 const monthStr = `${monthIndex} - ${month}`; 
 
-// File Hiearchy
+// File Hierarchy
 //00 - Daily Notes
 //----->Years
 //----------->2026
@@ -47,12 +47,13 @@ const monthStr = `${monthIndex} - ${month}`;
 //----------------->Daily Notes 2026 MOC
 //----------->Daily Notes MOC
 
-//Create folder path dynamically
+//Create Folder Path 
 const basePath = `00 - Daily Notes`;
 const yearsFolderPath = `${basePath}/Years`;
 const yearFolderPath = `${yearsFolderPath}/${year}`;
 const monthFolderPath = `${yearFolderPath}/${monthStr}`;
 
+//Create File Path 
 const yearsMocFilePath = `${yearsFolderPath}/Daily Notes Moc`;
 const yearMocFilePath =`${yearFolderPath}/Daily Notes ${year} MOC`;
 const monthMocFilePath = `${monthFolderPath}/Daily Notes ${year} ${month} MOC`;
