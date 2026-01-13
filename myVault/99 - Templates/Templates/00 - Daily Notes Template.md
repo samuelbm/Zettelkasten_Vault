@@ -38,7 +38,7 @@ async function appendToFile(filePath, content) {
 // Date
 const dateStr = 2026-01-01//tp.date.now("YYYY-MM-DD"); 
 const year = 2026//tp.date.now("YYYY"); 
-const month = tp.date.now("MMMM"); 
+const month = "January"//tp.date.now("MMMM"); 
 
 // Create folder path dynamically
 const basePath = `00 - Daily Notes`;
