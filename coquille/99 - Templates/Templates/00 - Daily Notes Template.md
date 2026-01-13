@@ -15,19 +15,8 @@ tags:
 - [ ] musculation
 - [ ] cardio
 # Gratitude & Pride
-* 
-# Thales
-## Thales activity log 
-- [ ] 
 
-## Thales Timesheet
-* 
 
-## Thales vacation, sick days and personal days
-* 
-
-## Thales things done (for performance review)
-* 
 
 <%*
 // Templates
