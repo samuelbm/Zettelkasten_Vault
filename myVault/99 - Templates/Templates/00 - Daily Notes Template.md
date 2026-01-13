@@ -93,9 +93,10 @@ await ensureFileExists(`${yearMocFilePath}`);
 await ensureFileExists(`${monthMocFilePath}`);
 await ensureFileExists(`${baseFolderPath}/Dataview/Daily Notes Dataview MOC.md`);
 
-
 // Add link to MOC Files
 await appendToFile(`${yearsMocFilePath}`, `[[${yearMocFileName}]]`);
 await appendToFile(`${yearMocFilePath}`, `[[${monthMocFileName}]]`);
 await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); 
+await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); 
+
 %>
