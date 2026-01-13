@@ -35,11 +35,9 @@ async function appendToFile(filePath, content) {
   await app.vault.modify(file, newContent);
 }
 
-
-
 // Date
-const dateStr = tp.date.now("YYYY-MM-DD"); 
-const year = tp.date.now("YYYY"); 
+const dateStr = 2026-01-01//tp.date.now("YYYY-MM-DD"); 
+const year = 2026//tp.date.now("YYYY"); 
 const month = tp.date.now("MMMM"); 
 
 // Create folder path dynamically
@@ -58,6 +56,6 @@ await ensureFolderExists(monthFolderPath);
 await tp.file.move(`${folderPath}/${noteName}`);
 
 // Add link to MOCs
-//
+await appendToFile("Daily/Years/Daily Notes 2026 MOC.md", "- [[Daily 2026-01-13]]");
 
 %>
