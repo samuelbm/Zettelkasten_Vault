@@ -82,7 +82,6 @@ await ensureFolderExists(`${baseFolderPath}`);
 await ensureFolderExists(`${yearsFolderPath}`);
 await ensureFolderExists(`${yearFolderPath}`);
 await ensureFolderExists(`${monthFolderPath}`);
-await ensureFolderExists(`${baseFolderPath}/Dataview`);
 
 // Move the note
 await tp.file.move(`${dailyNoteFilePath}`);
@@ -91,14 +90,17 @@ await tp.file.move(`${dailyNoteFilePath}`);
 await ensureFileExists(`${yearsMocFilePath}`);
 await ensureFileExists(`${yearMocFilePath}`);
 await ensureFileExists(`${monthMocFilePath}`);
-await ensureFileExists(`${baseFolderPath}/Dataview/Daily Notes Dataview MOC.md`);
 
 // Add link to MOC Files
 await appendToFile(`${yearsMocFilePath}`, `[[${yearMocFileName}]]`);
 await appendToFile(`${yearMocFilePath}`, `[[${monthMocFileName}]]`);
 await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); 
-await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); 
 
-//Add Dat
+
+//Add Dataview and Dataview MOC
+
+await ensureFolderExists(`${baseFolderPath}/Dataview`);
+await ensureFileExists(`${baseFolderPath}/Dataview/Daily Notes Dataview MOC.md`);
+await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); 
 
 %>
