@@ -89,7 +89,7 @@ await tp.file.move(`${dailyNoteFilePath}`);
 //Create Moc Files if needed
 const wasYearsMocFileCreated =  await ensureFileExists(`${yearsMocFilePath}`);
 const wasYearMocCreated = await ensureFileExists(`${yearMocFilePath}`);
-const wasFileCreated = await ensureFileExists(`${monthMocFilePath}`);
+const wasMonthMocFileCreated = await ensureFileExists(`${monthMocFilePath}`);
 
 // Add link to MOC Files
 await appendToFile(`${yearsMocFilePath}`, `[[${yearMocFileName}]]`);
@@ -103,8 +103,8 @@ await ensureFolderExists(`${dataviewFolderPath}`);
 const dataviewProudFileName = `Proud`;
 const dataviewProudFilePath = `${dataviewFolderPath}/${dataviewProudFileName}.md`;
 const wasProudFileCreated = await ensureFileExists(`${dataviewProudFilePath}`);
-if (wasProudFileCreated) {
-
+if (wasYearMocCreated) {
+	
 }
 await appendToFile(`${dataviewProudFilePath}`, `# allo`); 
 
