@@ -1,3 +1,9 @@
+---
+type: Daily
+id: 20260101212042
+tags:
+  - daily
+---
 # Gratitude & Pride
 * test1
 * test2
