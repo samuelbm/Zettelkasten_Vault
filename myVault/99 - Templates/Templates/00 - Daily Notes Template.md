@@ -64,6 +64,8 @@ await ensureFolderExists(yearsFolderPath);
 await ensureFolderExists(yearFolderPath);
 await ensureFolderExists(monthFolderPath);
 
+//Create file if nee
+
 // Move the note
 await tp.file.move(`${noteFilePath}`);
 
