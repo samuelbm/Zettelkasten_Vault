@@ -15,12 +15,13 @@ const month = tp.date.now("MMMM");
 const basePath = `00 - Daily Notes`;
 const yearsFolderPath = `${basePath}/Years`;
 const yearFolderPath = `${yearsFolderPath}/${year}`;
-const month = `${yearFolderPath}/${month}`;
+const monthFolderPath = `${yearFolderPath}/${month}`;
 const noteName = "Daily " + dateStr;
+const noteFilePath = `${yearFolderPath}/${noteName}`;
 
 
-// New note name
-const noteName = "Daily " + dateStr;
+
+
 
 // Move the note
 await tp.file.move(`${folderPath}/${noteName}`);
