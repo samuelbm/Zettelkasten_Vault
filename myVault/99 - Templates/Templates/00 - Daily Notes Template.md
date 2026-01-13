@@ -16,7 +16,7 @@ const basePath = `00 - Daily Notes`;
 const yearsFolderPath = `${basePath}/Years`;
 const yearFolderPath = `${yearsFolderPath}/${year}`;
 const month = `${yearFolderPath}/${month}`;
-noteName = "Daily " + dateStr;
+const noteName = "Daily " + dateStr;
 
 
 // New note name
