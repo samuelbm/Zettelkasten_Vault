@@ -23,14 +23,9 @@ const noteFilePath = `${yearFolderPath}/${noteName}`;
 
 
 // Template
-async function ensureFolder(path) {
-  const folder = app.vault.getAbstractFileByPath(path);
-  if (!folder) {
-    await app.vault.createFolder(path);
-  }
-}
 
-await ensureFolder(yearFolderPath);
+
+await ensureFolderExists(yearFolderPath);
 
 
 // Move the note
