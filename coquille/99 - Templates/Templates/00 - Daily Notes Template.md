@@ -114,7 +114,7 @@ const wasProudFileCreated = await ensureFileExists(`${dataviewProudFilePath}`);
 const scriptProud = `\`\`\`dataviewjs
 const folder = "00 - Daily Notes";
 const heading = "Gratitude & Pride";
-const yearFilter = "2026";
+const yearFilter = ``${year};
 
 let pages = dv.pages(`"${folder}"`)
     .filter(p => p.file.name.includes(yearFilter))
