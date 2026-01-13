@@ -99,4 +99,6 @@ await appendToFile(`${yearMocFilePath}`, `[[${monthMocFileName}]]`);
 await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); 
 await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); 
 
+//Add Dat
+
 %>
