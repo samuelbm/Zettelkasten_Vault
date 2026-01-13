@@ -80,6 +80,7 @@ await tp.file.move(`${dailyNoteFilePath}`);
 
 //Create Moc Files if needed
 await ensureFileExists(`${yearsMocFilePath}`);
+//await ensureFileExists(`${yearsMocFilePath}`);
 //await ensureFileExists(`${yearMocFilePath}`);
 //await ensureFileExists(`${monthFilePath}`);
 
