@@ -1,5 +1,0 @@
-
-[[Proud]]
-[[Proud]]
-[[Proud]]
-[[Proud]]

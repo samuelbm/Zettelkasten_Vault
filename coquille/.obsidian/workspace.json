@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00DailyNotes/Dataview/Proud.md",
+                "file": "00 - Daily Notes/Dataview/Proud.md",
                 "mode": "source",
                 "source": false
               },
@@ -31,14 +31,10 @@
             "id": "e28c6f8d476a017a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00DailyNotes/Years/2026/01  January  2026/Daily 2026-01-13.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Daily 2026-01-13"
+              "title": "New tab"
             }
           }
         ]
@@ -200,24 +196,28 @@
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false
     }
   },
   "active": "7807b1979faa4882",
   "lastOpenFiles": [
-    "00DailyNotes/Years/2026/01  January  2026/Daily 2026-01-13.md",
-    "00DailyNotes/Dataview/Proud.md",
-    "00DailyNotes/Dataview/Daily Notes Dataview MOC.md",
-    "00DailyNotes/Years/2026/01  January  2026/Daily Notes 2026 January MOC.md",
-    "00DailyNotes/Years/2026/Daily Notes 2026 MOC.md",
-    "00DailyNotes/Years/Daily Notes MOC.md",
-    "00DailyNotes/Years/2026/01  January  2026",
-    "00DailyNotes/Years/2026",
-    "00DailyNotes/Years",
+    "00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-13.md",
+    "00 - Daily Notes/Dataview/Daily Notes Dataview MOC.md",
+    "00 - Daily Notes/Dataview/Proud.md",
+    "00 - Daily Notes/Dataview",
+    "00 - Daily Notes/Years/2026/01 - January - 2026/Daily Notes 2026 January MOC.md",
+    "00 - Daily Notes/Years/2026/Daily Notes 2026 MOC.md",
+    "00 - Daily Notes/Years/Daily Notes MOC.md",
+    "00 - Daily Notes/Years/2026/01 - January - 2026",
+    "00 - Daily Notes/Years/2026",
+    "00 - Daily Notes/Years",
+    "00 - Daily Notes",
+    "00 - Daily Notes/Years/2026/01  January  2026/Daily 2026-01-13.md",
+    "00 - Daily Notes/Years/2026/01  January  2026/Daily Notes 2026 January MOC.md",
+    "00 - Daily Notes/Years/2026/01  January  2026",
     "99 - Templates/Templates/00 - Daily Notes Template.md",
     "00 - Daily Notes/Daily Notes 2026 January MOC.md",
-    "00DailyNotes/Dataview",
-    "00DailyNotes",
     "99 - Templates/Template MOC.md",
     "03 - Permanent Notes/Daily 2026-01-13.md",
     "99 - Templates/Meta Templates/ensureFileExists.md",
@@ -233,7 +233,6 @@
     "00 - Daily Notes/Years/2027/04 - April - 2027",
     "00 - Daily Notes/Years/2027",
     "00 - Daily Notes/Years/2026/04 - April - 2026/Daily 2026-04-10.md",
-    "00 - Daily Notes/Years/2026/04 - April - 2026/Daily Notes 2026 April MOC.md",
-    "00 - Daily Notes/Years/2026/04 - April - 2026"
+    "00 - Daily Notes/Years/2026/04 - April - 2026/Daily Notes 2026 April MOC.md"
   ]
 }
