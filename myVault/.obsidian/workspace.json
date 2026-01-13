@@ -11,10 +11,14 @@
             "id": "fa644572a2cd1e42",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "99 - Templates/Templates/00 - Daily Notes Template.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "00 - Daily Notes Template"
             }
           }
         ]
@@ -181,14 +185,14 @@
   },
   "active": "fa644572a2cd1e42",
   "lastOpenFiles": [
-    "00 - Daily Notes/Years/Daily Notes MOC.md",
-    "00 - Daily Notes/Years/2026/Daily Notes 2026 MOC.md",
-    "00 - Daily Notes/Years/2026/02 - February - 2026/Daily Notes 2026 February MOC.md",
     "00 - Daily Notes/Years/2026/02 - February - 2026/Daily 2026-02-05.md",
-    "99 - Templates/Templates/00 - Daily Notes Template.md",
+    "00 - Daily Notes/Years/2026/02 - February - 2026/Daily Notes 2026 February MOC.md",
+    "00 - Daily Notes/Years/2026/Daily Notes 2026 MOC.md",
+    "00 - Daily Notes/Years/Daily Notes MOC.md",
     "00 - Daily Notes/Years/2026/02 - February - 2026",
     "00 - Daily Notes/Years/2026",
     "00 - Daily Notes/Years",
+    "99 - Templates/Templates/00 - Daily Notes Template.md",
     "00 - Daily Notes/Years/Daily 2026-02-05",
     "00 - Daily Notes/Years/Daily Notes Moc.md",
     "00 - Daily Notes/Years/2026/02 - February",
