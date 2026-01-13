@@ -42,10 +42,10 @@ async function ensureFileExists(filePath, content = "") {
 }
 
 // Date
-const dateStr = "2027-05-10";//tp.date.now("YYYY-MM-DD"); 
-const year = "2027";//tp.date.now("YYYY"); 
-const month = "May";//tp.date.now("MMMM"); 
-const monthIndex = "05";//tp.date.now("MM");
+const dateStr = tp.date.now("YYYY-MM-DD"); 
+const year = tp.date.now("YYYY"); 
+const month = tp.date.now("MMMM"); 
+const monthIndex = tp.date.now("MM");
 const monthStr = `${monthIndex} - ${month} - ${year}`; 
 
 // File Hierarchy
