@@ -63,8 +63,7 @@ tR += goals.join("");
 
 const companyName = "__Work__";
 %>
-<%* 
-%># Daily activity
+# Daily activity
 - [ ] weigh-in
 - [ ] meditation
 - [ ] respiration
