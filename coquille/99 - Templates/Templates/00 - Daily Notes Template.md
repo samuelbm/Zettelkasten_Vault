@@ -52,7 +52,9 @@ async function getIncompleteTasks(filePath, title) {
 // console.log(tasks);
 
 
-yesterday_
+const = yesterday_year
+const = yesterday_month
+const = yesterday_day
 
 console.log("00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md");
 const tasks = await getIncompleteTasks("00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md", "Goals");
