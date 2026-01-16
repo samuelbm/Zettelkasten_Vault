@@ -24,7 +24,7 @@ const folderPath = "04 - Person Notes";
 const noteName = "Person Note " + dateStr;
 
 // Move the note
-await tp.file.move(`${folderPath}/People Notes/${noteName}`);
+await tp.file.move(`${folderPath}/People/${noteName}`);
 %>
 # Things to remember
 * 

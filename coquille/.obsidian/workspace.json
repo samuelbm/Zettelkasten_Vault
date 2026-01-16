@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
+                "file": "04 - Person Notes/People/Person Note 2026-01-16-15-56-14.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "04 - Person Notes - New Person Template"
+              "title": "Person Note 2026-01-16-15-56-14"
             }
           }
         ]
@@ -186,10 +186,12 @@
   },
   "active": "135aca3b422d2503",
   "lastOpenFiles": [
-    "04 - Person Notes/People Notes/Person Note 2026-01-16-15-54-59.md",
     "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
-    "04 - Person Notes/People Notes",
+    "04 - Person Notes/People",
+    "04 - Person Notes/People/Person Note 2026-01-16-15-56-14.md",
     "99 - Templates/Templates/04 - Person Notes - Person Note Template.md",
+    "04 - Person Notes/People Notes/Person Note 2026-01-16-15-54-59.md",
+    "04 - Person Notes/People Notes",
     "99 - Templates/Templates/03 - Permanent Notes Template.md",
     "02 - Literature Notes/Work Notes/Literature Note 2026-01-16.md",
     "99 - Templates/Templates/02 - Literature Notes - New Work Template.md",
@@ -217,9 +219,7 @@
     "00 - Daily Notes/Dataview/Proud.md",
     "00 - Daily Notes/Dataview",
     "00 - Daily Notes/Years/2026/01 - January - 2026/Daily Notes 2026 January MOC.md",
-    "00 - Daily Notes/Years/2026/Daily Notes 2026 MOC.md",
     "00 - Daily Notes/Years/2026/01 - January - 2026",
-    "00 - Daily Notes/Years/2026",
-    "00 - Daily Notes/Years"
+    "00 - Daily Notes/Years/2026"
   ]
 }
