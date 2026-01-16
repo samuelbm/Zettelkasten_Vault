@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Templates/Meta Templates/dataview Template.md",
+                "file": "99 - Templates/Templates/00 - Daily Notes Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dataview Template"
+              "title": "00 - Daily Notes Template"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Templates/Templates/00 - Daily Notes Template.md",
+                "file": "99 - Templates/Meta Templates/ensureFileExists.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 - Daily Notes Template"
+              "title": "ensureFileExists"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,10 +198,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "7c03bbf71b4c63d7",
+  "active": "7807b1979faa4882",
   "lastOpenFiles": [
-    "99 - Templates/Meta Templates/dataview Template.md",
     "99 - Templates/Template MOC.md",
+    "99 - Templates/Meta Templates/dataviewScript.md",
+    "99 - Templates/Meta Templates/ensureFileExists.md",
     "99 - Templates/Templates/00 - Daily Notes Template.md",
     "00 - Daily Notes/Dataview/Proud.md",
     "00 - Daily Notes/Dataview/Daily Notes Dataview MOC.md",
