@@ -74,10 +74,11 @@ const companyName = "__Work__";
 
 # Accomplishments
 
-# __Work__
 
-## __Work__ activity log 
 <%*
+tR += `# ${__Work__}`;
+tR += `## __Work__ activity log`;
+ 
 const activityLog = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDailyNoteName}.md`, "activity log");
 tR += activityLog.join("");
 %>
