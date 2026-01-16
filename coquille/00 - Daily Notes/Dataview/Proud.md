@@ -1,5 +1,5 @@
 
-# 2026
+# 2025
 
 ```dataviewjs
 const folder = "00 - Daily Notes";
