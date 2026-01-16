@@ -60,8 +60,11 @@ const yesterdayDailyNoteName = `Daily ${tp.date.now("YYYY-MM-DD", -1)}`;
 const yesterdayMonthStr = `${yesterdayMonthIndex} - ${yesterdayMonth} - ${yesterdayYear}`;
 const goals = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDailyNoteName}.md`, "Goals");
 tR += goals.join("");
+
+const companyName = "__Work__";
 %>
-# Daily activity
+<%* 
+%># Daily activity
 - [ ] weigh-in
 - [ ] meditation
 - [ ] respiration
@@ -87,7 +90,6 @@ tR += activityLog.join("");
 
 <%*
 // Templates
-const companyName = "__Work__";
 //Templates 1
 async function ensureFolderExists(path) {
   const folder = app.vault.getAbstractFileByPath(path);
