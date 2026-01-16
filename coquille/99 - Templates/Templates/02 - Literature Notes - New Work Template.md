@@ -5,11 +5,7 @@ tags:
   - literature
   - "#notes"
 ---
-# Course Content
-
-
-
-# References / Sources
+# Chapter
 * 
 <%*
 const dateStr = tp.date.now("YYYY-MM-DD");  
