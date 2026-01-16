@@ -95,6 +95,9 @@ async function appendToTopOfFile(filePath, content, position = 'top') {
   await app.vault.modify(file, newContent);
 }
 
+//Template 5
+
+
 // Date
 const dateStr = tp.date.now("YYYY-MM-DD"); 
 const year = tp.date.now("YYYY"); 
