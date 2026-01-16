@@ -152,7 +152,7 @@ for (let p of pages) {
     const lines = content.split("\\n");
     let inSection = false;
     for (let line of lines) {
-        if (line.trim() === \`# \${heading}\`) {
+		if (new RegExp(`^#+\\s+${heading}$`).test(line.trim())) {
             inSection = true;
             continue;
         }
