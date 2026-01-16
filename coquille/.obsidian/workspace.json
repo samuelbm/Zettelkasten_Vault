@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Templates/Templates/00 - Daily Notes Template.md",
+                "file": "00 - Daily Notes/Dataview/__Work__ vacation sickdays and personal days.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 - Daily Notes Template"
+              "title": "__Work__ vacation sickdays and personal days"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "9ffcede7925a436d",
@@ -215,15 +214,15 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "6a89354276b9ce6e",
+  "active": "1192a8b158e3127b",
   "lastOpenFiles": [
     "00 - Daily Notes/Dataview/__Work__ vacation sickdays and personal days.md",
+    "99 - Templates/Templates/00 - Daily Notes Template.md",
     "00 - Daily Notes/Dataview/Proud.md",
     "00 - Daily Notes/Dataview/Daily Notes Dataview MOC.md",
     "00 - Daily Notes/Dataview/__Work__ timesheet.md",
     "00 - Daily Notes/Dataview/__Work__ things done.md",
     "00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-16.md",
-    "99 - Templates/Templates/00 - Daily Notes Template.md",
     "00 - Daily Notes/Dataview",
     "00 - Daily Notes/Years/2026/01 - January - 2026/Daily Notes 2026 January MOC.md",
     "00 - Daily Notes/Years/2026/Daily Notes 2026 MOC.md",

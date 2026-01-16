@@ -27,7 +27,7 @@ tags:
 * 
 
 ## __Work__ vacation sick days and personal days
-* 
+* vacation
 
 ## __Work__ things done for performance review
 * 
