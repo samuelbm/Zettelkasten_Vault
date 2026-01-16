@@ -24,6 +24,7 @@ async function getIncompleteTasks(filePath, title) {
   let inSection = false;
   
   for (let line of lines) {
+	  console.log(line);
     // Check if we found the title/heading
     if (line.trim().startsWith("#") && line.includes(title)) {
       inSection = true;
