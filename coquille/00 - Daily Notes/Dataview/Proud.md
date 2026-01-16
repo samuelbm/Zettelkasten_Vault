@@ -1,5 +1,5 @@
 
-# 2024
+# 2025
 
 test
 test
@@ -7,7 +7,7 @@ test
 test
 
 
-#  `${year}`
+#  2026
 ```dataviewjs
 const folder = "00 - Daily Notes";
 const heading = "Gratitude & Pride";
