@@ -70,6 +70,7 @@ tR += tasks.join("");
 * 
 # Accomplishments
 * 
+<%*
 
 # __Work__
 ## __Work__ activity log 
@@ -82,7 +83,9 @@ tR += tasks.join("");
 * 
 
 ## __Work__ things done for performance review
-* 
+*
+%>
+ 
 <%*
 // Templates
 const companyName = "__Work__";
