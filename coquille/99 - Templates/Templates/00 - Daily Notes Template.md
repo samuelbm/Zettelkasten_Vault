@@ -101,8 +101,8 @@ function dataviewScript(year, folderPath, heading) {
 	const baseScript = `
 #  ${year}
 \`\`\`dataviewjs
-const folder = ${folderPath};
-const heading = ${heading};
+const folder = "${folderPath}";
+const heading = "${heading}";
 const yearFilter = "${year}"; // only show notes from this year
 let pages = dv.pages(\`"\${folder}"\`)
     .filter(p => p.file.name.includes(yearFilter)) // only notes containing 2025
