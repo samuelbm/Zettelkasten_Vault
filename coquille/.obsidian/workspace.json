@@ -11,10 +11,14 @@
             "id": "5774d4e2d217a4b0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "04 - Person Notes/People/Person Note 2026-01-16-18-47-49.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Person Note 2026-01-16-18-47-49"
             }
           },
           {
@@ -196,6 +200,7 @@
   },
   "active": "5774d4e2d217a4b0",
   "lastOpenFiles": [
+    "04 - Person Notes/People/Person Note 2026-01-16-18-47-49.md",
     "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
     "04 - Person Notes/People/Person Note 2026-01-16-15-57-18.md",
     "04 - Person Notes/People/Person Note 2026-01-16-15-57-04.md",
@@ -228,7 +233,6 @@
     "00 - Daily Notes/Dataview/Daily Notes Dataview MOC.md",
     "00 - Daily Notes/Dataview/__Work__ vacation, sickdays and personal days.md",
     "00 - Daily Notes/Dataview/__Work__ timesheet.md",
-    "00 - Daily Notes/Dataview/__Work__ things done.md",
     "00 - Daily Notes/Dataview",
     "00 - Daily Notes/Years/2026/01 - January - 2026",
     "00 - Daily Notes/Years/2026"
