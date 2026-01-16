@@ -94,7 +94,8 @@ async function appendToTopOfFile(filePath, content, position = 'top') {
   // Write back
   await app.vault.modify(file, newContent);
 }
-
+"00 - Daily Notes"
+"Gratitude & Pride"
 //Function
 function formatScript(year, folderPath, heading, yearFilter) { 
 	const baseScript = `
