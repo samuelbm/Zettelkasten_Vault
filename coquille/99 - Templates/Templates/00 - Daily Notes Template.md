@@ -58,8 +58,8 @@ const yesterdayMonthIndex = tp.date.now("MM", -1);
 const yesterdayDay = tp.date.now("DD", -1);
 const yesterdayDailyNoteName = `Daily ${tp.date.now("YYYY-MM-DD", -1)}`;
 const yesterdayMonthStr = `${yesterdayMonthIndex} - ${yesterdayMonth} - ${yesterdayYear}`;
-const tasks = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDailyNoteName}.md`, "Goals");
-tR += tasks.join("");
+const goals = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDailyNoteName}.md`, "Goals");
+tR += goals.join("");
 %>
 # Daily activity
 - [ ] weigh-in
@@ -76,60 +76,8 @@ tR += tasks.join("");
 
 ## __Work__ activity log 
 <%*
-// template 1
-async function getIncompleteTasks(filePath, title) {
-  // Get the file
-  const file = app.vault.getAbstractFileByPath(filePath);
-  
-  if (!file) {
-    console.error(`File not found: ${filePath}`);
-    return [];
-  }
-  
-  // Read the content
-  const content = await app.vault.read(file);
-  const lines = content.split("\n");
-  
-  let incompleteTasks = [];
-  let inSection = false;
-  
-  for (let line of lines) {
-    // Check if we found the title/heading
-    if (line.trim().startsWith("#") && line.includes(title)) {
-      inSection = true;
-      continue;
-    }
-    
-    // If we hit another heading, stop looking
-    if (inSection && line.trim().startsWith("#")) {
-      break;
-    }
-    
-    // If we're in the right section, look for incomplete tasks
-    if (inSection) {
-      // Match incomplete tasks: - [ ] but not - [x] or - [X]
-		if (line.includes("- [ ]")) {
-			incompleteTasks.push(line.trim() + "\n");
-		}
-    }
-  }
-  
-  return incompleteTasks;
-}
-
-// Example usage:
-// const tasks = await getIncompleteTasks("path/to/file.md", "My Section");
-// console.log(tasks);
-
-
-const yesterdayYear = tp.date.now("YYYY", -1);
-const yesterdayMonth = tp.date.now("MMMM", -1);
-const yesterdayMonthIndex = tp.date.now("MM", -1);
-const yesterdayDay = tp.date.now("DD", -1);
-const yesterdayDailyNoteName = `Daily ${tp.date.now("YYYY-MM-DD", -1)}`;
-const yesterdayMonthStr = `${yesterdayMonthIndex} - ${yesterdayMonth} - ${yesterdayYear}`;
-const tasks = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDailyNoteName}.md`, "activity log");
-tR += tasks.join("");
+const activityLog = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDailyNoteName}.md`, "activity log");
+tR += activityLog.join("");
 %>
 ## __Work__ timesheet
 
