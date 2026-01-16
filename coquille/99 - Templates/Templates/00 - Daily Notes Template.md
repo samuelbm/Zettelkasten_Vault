@@ -69,13 +69,14 @@ tR += goals.join("");
 - [ ] miracle morning
 - [ ] musculation
 - [ ] cardio
+- 
 # Gratitude & Pride
 
 # Accomplishments
 
 
 <%*
-tR += `---`;
+tR += `---\n`;
 tR += `# ${companyName}\n`;
 tR += `## ${companyName} activity log\n`;
  
