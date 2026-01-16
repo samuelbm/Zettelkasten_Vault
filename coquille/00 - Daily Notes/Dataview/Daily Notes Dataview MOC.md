@@ -1,18 +1,3 @@
 
 [[Proud]]
-
-[[Proud]]
-[[Proud]]
-[[Proud]]
-[[Proud]]
-[[Proud]]
-[[Proud]]
-[[Proud]]
-[[Proud]]
-[[Proud]]
-[[Proud]]
-[[Proud]]
-[[Proud]]
-[[Proud]]
-[[Proud]]
 [[Proud]]
