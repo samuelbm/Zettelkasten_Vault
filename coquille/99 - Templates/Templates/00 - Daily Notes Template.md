@@ -4,7 +4,7 @@ id: <% tp.date.now("YYYYMMDDHHmmss") %>
 tags:
   - daily
 ---
-# Goal
+# Goals
 <%*
 // template 1
 async function getIncompleteTasks(filePath, title) {
@@ -51,7 +51,7 @@ async function getIncompleteTasks(filePath, title) {
 
 
 
-const tasks = await getIncompleteTasks("path/to/file.md", "My Section");
+const tasks = await getIncompleteTasks("Daily 2026-01-15", "# Goals");
 console.log(tasks);
 
 %>
