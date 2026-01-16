@@ -238,4 +238,25 @@ if (wasProudFileCreated)
 	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkTimesheetFileName}]]`);
 	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkVacationFileName}]]`);
 } 
+if (wasProudFileCreated)
+{
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkThingsDoneFileName}]]`);
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkTimesheetFileName}]]`);
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkVacationFileName}]]`);
+}
+if (wasProudFileCreated)
+{
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkThingsDoneFileName}]]`);
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkTimesheetFileName}]]`);
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkVacationFileName}]]`);
+}
+if (wasProudFileCreated)
+{
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkThingsDoneFileName}]]`);
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkTimesheetFileName}]]`);
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkVacationFileName}]]`);
+}
 %>
