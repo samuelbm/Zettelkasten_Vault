@@ -51,21 +51,9 @@ async function getIncompleteTasks(filePath, title) {
 // const tasks = await getIncompleteTasks("path/to/file.md", "My Section");
 // console.log(tasks);
 
-const baseFolderPath = `00 - Daily Notes`;
-const yearsFolderPath = `${baseFolderPath}/Years`;
-const yearFolderPath = `${yearsFolderPath}/${year}`;
-const monthFolderPath = `${yearFolderPath}/${monthStr}`;
 
-//File Name
-const dailyNoteFileName = `Daily ${dateStr}`;
+yesterday_
 
-//Create File Path 
-const yearsMocFilePath = `${yearsFolderPath}/${yearsMocFileName}.md`;
-const yearMocFilePath =`${yearFolderPath}/${yearMocFileName}.md`;
-const monthMocFilePath = `${monthFolderPath}/${monthMocFileName}.md`;
-const dailyNoteFilePath = `${monthFolderPath}/${dailyNoteFileName}`;
-const yesterday_daily_note_file_path = "00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md";
-`${}`
 console.log("00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md");
 const tasks = await getIncompleteTasks("00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md", "Goals");
 tR += tasks.join("");
