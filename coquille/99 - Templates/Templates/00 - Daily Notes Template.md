@@ -24,7 +24,6 @@ async function getIncompleteTasks(filePath, title) {
   let inSection = false;
   
   for (let line of lines) {
-	  console.log(line);
     // Check if we found the title/heading
     if (line.trim().startsWith("#") && line.includes(title)) {
       inSection = true;
@@ -51,7 +50,7 @@ async function getIncompleteTasks(filePath, title) {
 
 console.log("00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md");
 const tasks = await getIncompleteTasks("00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md", "Goals");
-console.log(tasks);
+tR += "your content here";
 
 %>
 
