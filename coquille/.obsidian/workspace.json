@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Templates/Templates/02 - Literature Notes - New Work Template.md",
+                "file": "99 - Templates/Templates/02 - Literature Notes - Work Note Template.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "02 - Literature Notes - New Work Template"
+              "title": "02 - Literature Notes - Work Note Template"
             }
           }
         ]
@@ -186,10 +186,10 @@
   },
   "active": "135aca3b422d2503",
   "lastOpenFiles": [
+    "99 - Templates/Templates/02 - Literature Notes - New Work Template.md",
     "02 - Literature Notes/Work Projects/Literature Note 2026-01-16.md",
     "02 - Literature Notes/Work Notes/Literature Note 2026-01-16.md",
     "02 - Literature Notes/Work Notes",
-    "99 - Templates/Templates/02 - Literature Notes - New Work Template.md",
     "02 - Literature Notes/Work Projects",
     "02 - Literature Notes",
     "99 - Templates/Templates/02 - Literature Notes - Work Note Template.md",
