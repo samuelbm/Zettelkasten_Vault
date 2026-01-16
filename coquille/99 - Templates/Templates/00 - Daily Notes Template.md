@@ -234,29 +234,17 @@ const wasDataviewMocFileCreated = await ensureFileExists(`${dataviewMocFilePath}
 if (wasProudFileCreated)
 {
 	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
-	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkThingsDoneFileName}]]`);
-	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkTimesheetFileName}]]`);
-	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkVacationFileName}]]`);
 } 
-if (wasProudFileCreated)
+if (wasWorkThingsDoneFileCreated)
 {
-	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
 	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkThingsDoneFileName}]]`);
-	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkTimesheetFileName}]]`);
-	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkVacationFileName}]]`);
 }
-if (wasProudFileCreated)
+if (wasWorkTimesheetFileCreated)
 {
-	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
-	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkThingsDoneFileName}]]`);
 	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkTimesheetFileName}]]`);
-	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkVacationFileName}]]`);
 }
-if (wasProudFileCreated)
+if (wasWorkVacationFileCreated)
 {
-	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
-	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkThingsDoneFileName}]]`);
-	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkTimesheetFileName}]]`);
 	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkVacationFileName}]]`);
 }
 %>
