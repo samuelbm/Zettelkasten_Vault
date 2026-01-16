@@ -1,8 +1,8 @@
 
 #  2026
 ```dataviewjs
-const folder = "00 - Daily Notes";
-const heading = "Gratitude & Pride";
+const folder = 00 - Daily Notes;
+const heading = ${companyName} things done (for performance review);
 const yearFilter = "2026"; // only show notes from this year
 let pages = dv.pages(`"${folder}"`)
     .filter(p => p.file.name.includes(yearFilter)) // only notes containing 2025
