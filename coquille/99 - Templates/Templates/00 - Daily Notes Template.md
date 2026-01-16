@@ -190,7 +190,7 @@ for (let p of pages) {
 dv.list(allBullets);
 \`\`\`
 `;
-if (wasProudFileCreated) {
+if (wasYearMocCreated) {
 	await appendToTopOfFile(`${dataviewProudFilePath}`, `${scriptProud}`); 
 }
 //work things done
