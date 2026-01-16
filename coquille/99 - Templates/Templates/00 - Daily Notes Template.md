@@ -33,7 +33,7 @@ tags:
 * 
 <%*
 // Templates
-const companyName = "Work";
+const companyName = "__Work__";
 //Templates 1
 async function ensureFolderExists(path) {
   const folder = app.vault.getAbstractFileByPath(path);
