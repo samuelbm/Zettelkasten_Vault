@@ -23,7 +23,7 @@ tags:
 ## __Work__ activity log 
 - [ ] 
 
-## __Work__ Timesheet
+## __Work__ timesheet
 * 
 
 ## __Work__ vacation, sick days and personal days
