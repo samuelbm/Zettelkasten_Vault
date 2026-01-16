@@ -6,6 +6,7 @@ tags:
 ---
 # Goals
 <%*
+const companyName = "__Work__";
 // template 1
 async function getIncompleteTasks(filePath, title) {
   // Get the file
@@ -60,8 +61,6 @@ const yesterdayDailyNoteName = `Daily ${tp.date.now("YYYY-MM-DD", -1)}`;
 const yesterdayMonthStr = `${yesterdayMonthIndex} - ${yesterdayMonth} - ${yesterdayYear}`;
 const goals = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDailyNoteName}.md`, "Goals");
 tR += goals.join("");
-
-const companyName = "__Work__";
 %>
 # Daily activity
 - [ ] weigh-in
@@ -76,15 +75,15 @@ const companyName = "__Work__";
 
 
 <%*
-tR += `# ${__Work__}`;
-tR += `${__Work__} activity log`;
+tR += `# ${companyName}`;
+tR += `${companyName} activity log`;
  
 const activityLog = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDailyNoteName}.md`, "activity log");
 tR += activityLog.join("");
 
-tR += `${__Work__} timesheet`;
-tR += `${__Work__} vacation sickdays and personal days`;
-tR += `${__Work__} things done for performance review`;
+tR += `${companyName} timesheet`;
+tR += `${companyName} vacation sickdays and personal days`;
+tR += `${companyName} things done for performance review`;
 
 // Templates
 //Templates 1
