@@ -15,7 +15,7 @@
               "state": {
                 "file": "99 - Templates/Templates/02 - Literature Notes - New Work Template.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "02 - Literature Notes - New Work Template"
@@ -188,6 +188,7 @@
   "lastOpenFiles": [
     "99 - Templates/Templates/02 - Literature Notes - Work Note Template.md",
     "99 - Templates/Templates/02 - Literature Notes - New Work Template.md",
+    "99 - Templates/Templates/01 - Fleeting Notes Template.md",
     "99 - Templates/Template MOC.md",
     "99 - Templates/Templates/07 - Content Notes - Project Note Template.md",
     "99 - Templates/Templates/07 - Content Notes - New Project Template.md",
@@ -199,7 +200,6 @@
     "02 - Literature Notes/Works",
     "02 - Literature Notes/Work Projects",
     "02 - Literature Notes/Work Notes",
-    "99 - Templates/Templates/01 - Fleeting Notes Template.md",
     "01 - Fleeting Notes/Fleeting Note 2026-01-16-01-16.md",
     "01 - Fleeting Notes",
     "01 - Fleeting Notes/Fleeting Note 2026-01-16.md",

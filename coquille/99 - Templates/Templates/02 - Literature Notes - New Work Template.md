@@ -1,7 +1,9 @@
 ---
 type: literature
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
-tags: literature
+tags:
+  - literature
+  - "#notes"
 ---
 # Course Content
 
