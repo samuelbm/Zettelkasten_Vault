@@ -1,33 +1,30 @@
-function dataviewScript(year, folderPath, heading) { 
-	const baseScript = `
-#  ${year}
-\`\`\`dataviewjs
-const folder = "${folderPath}";
-const heading = ${heading}";
-const yearFilter = "${year}"; // only show notes from this year
-let pages = dv.pages(\`"\${folder}"\`)
+
+#  2026
+```dataviewjs
+const folder = 00 - Daily Notes;
+const heading = ${companyName} things done (for performance review);
+const yearFilter = "2026"; // only show notes from this year
+let pages = dv.pages(`"${folder}"`)
     .filter(p => p.file.name.includes(yearFilter)) // only notes containing 2025
     .sort(p => p.file.name, 'desc');
 let allBullets = [];
 for (let p of pages) {
     const content = await dv.io.load(p.file.path);
-    const lines = content.split("\\n");
+    const lines = content.split("\n");
     let inSection = false;
     for (let line of lines) {
-		if (new RegExp(\`^#+\\\\s+\${heading}$\`).test(line.trim())) {
+		if (new RegExp(`^#+\\s+${heading}$`).test(line.trim())) {
             inSection = true;
             continue;
         }
         if (inSection) {
             if (line.startsWith("#")) break;
             if (line.trim().startsWith("*") || line.trim().startsWith("-")) {
-                allBullets.push(\`(\${p.file.name}) \${line.replace(/^(\\*|-)\\s*/, "")}\`);
+                allBullets.push(`(${p.file.name}) ${line.replace(/^(\*|-)\s*/, "")}`);
             }
         }
     }
 }
 dv.list(allBullets);
-\`\`\`
-`;
-	return baseScript; 
-}
+```
+
