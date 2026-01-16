@@ -52,10 +52,11 @@ async function getIncompleteTasks(filePath, title) {
 // console.log(tasks);
 
 
-const yesterdayYear = "2026";
-const yesterdayMonth = "January";
-const yesterdayMonthIndex = "01";
-const yesterdayDay = "14";
+const yesterdayYear = tp.date.now("YYYY", -1);
+const yesterdayMonth = tp.date.now("MMMM", -1);
+const yesterdayMonthIndex = tp.date.now("MM", -1);
+const yesterdayDay = tp.date.now("DD", -1);
+const yesterdayDateStr = tp.date.now("YYYY-MM-DD", -1);
 
 const yesterdayMonthStr = `${yesterdayMonthIndex} - ${yesterdayMonth} - ${yesterdayYear}`;
 const yesterdayFileName = `Daily ${yesterdayYear}-${yesterdayMonthIndex}-${yesterdayDay}`;
