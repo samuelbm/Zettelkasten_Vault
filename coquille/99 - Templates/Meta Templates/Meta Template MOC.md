@@ -1,3 +1,4 @@
-[[appendTOFile]]
+[[appendToTopOfFile]]
+[[appendToBottomOfFile]]
 [[ensureFileExists]]
 [[ensureFolderExists]]
