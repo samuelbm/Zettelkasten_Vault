@@ -42,7 +42,7 @@ async function ensureFolderExists(path) {
 }
 
 //Templates 2
-async function appendToFile(filePath, content) {
+async function appendToBottomOfFile(filePath, content) {
   // Get the file object
   const file = app.vault.getAbstractFileByPath(filePath);
   
@@ -71,6 +71,28 @@ async function ensureFileExists(filePath, content = "") {
   }
 
   return false;    // file already existed
+}
+
+//Template 4
+async function appendToFile(filePath, content, position = 'bottom') {
+  // Get the file object
+  const file = app.vault.getAbstractFileByPath(filePath);
+  
+  if (!file) {
+    console.error(`File not found: ${filePath}`);
+    return;
+  }
+  
+  // Read existing content
+  const existingContent = await app.vault.read(file);
+  
+  // Append new content at top or bottom
+  const newContent = position === 'top' 
+    ? content + "\n" + existingContent
+    : existingContent + "\n" + content;
+  
+  // Write back
+  await app.vault.modify(file, newContent);
 }
 
 // Date
