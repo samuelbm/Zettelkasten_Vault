@@ -224,7 +224,7 @@ const dataviewWorkVacationPath = `${dataviewFolderPath}/${dataviewWorkVacationFi
 const wasWorkVacationFileCreated = await ensureFileExists(`${dataviewWorkVacationPath}`);
 const scriptWorkVacation = dataviewScript(year, "00 - Daily Notes", "${companyName} vacation, sickdays and personal days");
 if (wasYearMocCreated) {
-	await appendToTopOfFile(`${dataviewWorkTimesheetPath}`, `${scriptWorkVacation}`); 
+	await appendToTopOfFile(`${dataviewWorkVacationPath}`, `${scriptWorkVacation}`); 
 }
 
 //DataviewMoc 
@@ -236,5 +236,6 @@ if (wasProudFileCreated)
 	await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
 	await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkThingsDoneFileName}]]`);
 	await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkTimesheetFileName}]]`);
+	await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkVacationFileName}]]`);
 } 
 %>
