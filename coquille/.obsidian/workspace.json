@@ -11,14 +11,10 @@
             "id": "b142d4edf7ec4797",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - Daily Notes/Dataview/Proud.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Proud"
+              "title": "New tab"
             }
           }
         ]
@@ -184,7 +180,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "b142d4edf7ec4797",
+  "active": "f6408a460a94aa58",
   "lastOpenFiles": [
     "00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-16.md",
     "00 - Daily Notes/Dataview/Daily Notes Dataview MOC.md",
