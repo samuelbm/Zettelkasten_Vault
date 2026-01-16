@@ -42,7 +42,7 @@ async function ensureFolderExists(path) {
 }
 
 //Templates 2
-async function appendToBottomFile(filePath, content) {
+async function appendToBottomOfFile(filePath, content) {
   // Get the file object
   const file = app.vault.getAbstractFileByPath(filePath);
   
@@ -60,8 +60,6 @@ async function appendToBottomFile(filePath, content) {
   // Write back
   await app.vault.modify(file, newContent);
 }
-
-
 
 //Template 3
 async function ensureFileExists(filePath, content = "") {
