@@ -205,9 +205,9 @@ if (wasYearMocCreated) {
 const dataviewWorkThingsDoneFileName = `${companyName} things done`;
 const dataviewWorkThingsDonePath = `${dataviewFolderPath}/${dataviewWorkThingsDoneFileName}.md`;
 const wasWorkThingsDoneFileCreated = await ensureFileExists(`${dataviewWorkThingsDonePath}`);
-const scriptProud = dataviewScript(year, "00 - Daily Notes", "${} things done (for performance review)");
+const scriptWorkThingsDone = dataviewScript(year, "00 - Daily Notes", "${companyName} things done (for performance review)");
 if (wasYearMocCreated) {
-	await appendToTopOfFile(`${dataviewProudFilePath}`, `${scriptProud}`); 
+	await appendToTopOfFile(`${dataviewWorkThingsDonePath}`, `${scriptWorkThingsDone}`); 
 }
 //work timesheet 
 
@@ -220,5 +220,6 @@ const wasDataviewMocFileCreated = await ensureFileExists(`${dataviewMocFilePath}
 if (wasProudFileCreated)
 {
 	await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
+		await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
 } 
 %>
