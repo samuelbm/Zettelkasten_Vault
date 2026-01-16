@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - Person Notes/People/Person Note 2026-01-16-15-56-14.md",
+                "file": "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Person Note 2026-01-16-15-56-14"
+              "title": "04 - Person Notes - New Person Template"
             }
           }
         ]
@@ -186,9 +186,12 @@
   },
   "active": "135aca3b422d2503",
   "lastOpenFiles": [
+    "04 - Person Notes/People/Person Note 2026-01-16-15-57-18.md",
     "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
-    "04 - Person Notes/People",
+    "04 - Person Notes/People/Person Note 2026-01-16-15-57-04.md",
+    "04 - Person Notes/People/Person Note 2026-01-16-15-56-51.md",
     "04 - Person Notes/People/Person Note 2026-01-16-15-56-14.md",
+    "04 - Person Notes/People",
     "99 - Templates/Templates/04 - Person Notes - Person Note Template.md",
     "04 - Person Notes/People Notes/Person Note 2026-01-16-15-54-59.md",
     "04 - Person Notes/People Notes",
@@ -216,9 +219,7 @@
     "00 - Daily Notes/Dataview/__Work__ vacation, sickdays and personal days.md",
     "00 - Daily Notes/Dataview/__Work__ timesheet.md",
     "00 - Daily Notes/Dataview/__Work__ things done.md",
-    "00 - Daily Notes/Dataview/Proud.md",
     "00 - Daily Notes/Dataview",
-    "00 - Daily Notes/Years/2026/01 - January - 2026/Daily Notes 2026 January MOC.md",
     "00 - Daily Notes/Years/2026/01 - January - 2026",
     "00 - Daily Notes/Years/2026"
   ]

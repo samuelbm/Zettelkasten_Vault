@@ -1,14 +1,14 @@
 ---
 Jobs: TBD
-hobbies: TBD
-birthdate: TBD
-partners: TBD
-Parents: TBD
-siblings: TBD
-children: TBD
-friends: TBD
-collegues: TBD
-authors: TBD
+hobbies:
+birthdate:
+partners:
+Parents:
+siblings:
+children:
+friends:
+collegues:
+authors:
 tags:
   - "#person"
 ---
