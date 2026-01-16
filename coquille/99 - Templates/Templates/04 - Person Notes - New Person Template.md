@@ -1,9 +1,19 @@
 ---
-type: person
-people: TBD
-id: <% tp.date.now("YYYYMMDDHHmmss") %>
-tags: person
+Jobs: TBD
+hobbies: TBD
+birthdate: TBD
+partners: TBD
+Parents: TBD
+siblings: TBD
+children: TBD
+friends: TBD
+collegues: TBD
+authors: TBD
+tags:
+  - "#person"
 ---
+
+
 <%*
 const dateStr = tp.date.now("YYYY-MM-DD-HH-mm-ss");  
 
