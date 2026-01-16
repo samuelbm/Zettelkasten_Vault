@@ -233,9 +233,9 @@ const dataviewMocFilePath = `${dataviewFolderPath}/${dataviewMocFileName}.md`;
 const wasDataviewMocFileCreated = await ensureFileExists(`${dataviewMocFilePath}`);
 if (wasProudFileCreated)
 {
-	await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
-	await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkThingsDoneFileName}]]`);
-	await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkTimesheetFileName}]]`);
-	await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkVacationFileName}]]`);
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkThingsDoneFileName}]]`);
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkTimesheetFileName}]]`);
+	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkVacationFileName}]]`);
 } 
 %>
