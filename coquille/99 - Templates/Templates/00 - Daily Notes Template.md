@@ -96,7 +96,39 @@ async function appendToTopOfFile(filePath, content, position = 'top') {
 }
 
 //Function
-function formatScript(folderPath, y, z) { return `x: ${x}, y: ${y}, z: ${z}, `; }
+function formatScript(folderPath, heading, yearFilter) { 
+	const baseScript = `
+#  ${year}
+\`\`\`dataviewjs
+const folder = "00 - Daily Notes";
+const heading = "Gratitude & Pride";
+const yearFilter = "${year}"; // only show notes from this year
+let pages = dv.pages(\`"\${folder}"\`)
+    .filter(p => p.file.name.includes(yearFilter)) // only notes containing 2025
+    .sort(p => p.file.name, 'desc');
+let allBullets = [];
+for (let p of pages) {
+    const content = await dv.io.load(p.file.path);
+    const lines = content.split("\\n");
+    let inSection = false;
+    for (let line of lines) {
+		if (new RegExp(\`^#+\\\\s+\${heading}$\`).test(line.trim())) {
+            inSection = true;
+            continue;
+        }
+        if (inSection) {
+            if (line.startsWith("#")) break;
+            if (line.trim().startsWith("*") || line.trim().startsWith("-")) {
+                allBullets.push(\`(\${p.file.name}) \${line.replace(/^(\\*|-)\\s*/, "")}\`);
+            }
+        }
+    }
+}
+dv.list(allBullets);
+\`\`\`
+`;
+	return `x: ${x}, y: ${y}, z: ${z}, `; 
+}
 
 
 // Date
@@ -164,36 +196,7 @@ await ensureFolderExists(`${dataviewFolderPath}`);
 const dataviewProudFileName = `Proud`;
 const dataviewProudFilePath = `${dataviewFolderPath}/${dataviewProudFileName}.md`;
 const wasProudFileCreated = await ensureFileExists(`${dataviewProudFilePath}`);
-const scriptProud = `
-#  ${year}
-\`\`\`dataviewjs
-const folder = "00 - Daily Notes";
-const heading = "Gratitude & Pride";
-const yearFilter = "${year}"; // only show notes from this year
-let pages = dv.pages(\`"\${folder}"\`)
-    .filter(p => p.file.name.includes(yearFilter)) // only notes containing 2025
-    .sort(p => p.file.name, 'desc');
-let allBullets = [];
-for (let p of pages) {
-    const content = await dv.io.load(p.file.path);
-    const lines = content.split("\\n");
-    let inSection = false;
-    for (let line of lines) {
-		if (new RegExp(\`^#+\\\\s+\${heading}$\`).test(line.trim())) {
-            inSection = true;
-            continue;
-        }
-        if (inSection) {
-            if (line.startsWith("#")) break;
-            if (line.trim().startsWith("*") || line.trim().startsWith("-")) {
-                allBullets.push(\`(\${p.file.name}) \${line.replace(/^(\\*|-)\\s*/, "")}\`);
-            }
-        }
-    }
-}
-dv.list(allBullets);
-\`\`\`
-`;
+const scriptProud = 
 if (wasYearMocCreated) {
 	await appendToTopOfFile(`${dataviewProudFilePath}`, `${scriptProud}`); 
 }
