@@ -51,7 +51,7 @@ async function getIncompleteTasks(filePath, title) {
 
 
 
-const tasks = await getIncompleteTasks("Daily 2026-01-15", "# Goals");
+const tasks = await getIncompleteTasks("00 - Daily Notes/Years/2025/01 - January 2026/Daily 2026-01-15", "# Goals");
 console.log(tasks);
 
 %>
