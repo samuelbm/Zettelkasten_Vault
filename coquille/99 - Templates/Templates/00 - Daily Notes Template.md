@@ -75,13 +75,13 @@ tR += goals.join("");
 
 
 <%*
-tR += `# ${companyName}\n`;
-tR += `## ${companyName} activity log\n`;
+tR += `# ${companyName}`;
+tR += `## ${companyName} activity log`;
  
 const activityLog = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDailyNoteName}.md`, "activity log");
 tR += activityLog.join("");
 
-tR += `## ${companyName} timesheet`;
+tR += `## ${companyName} timesheet`\n;
 tR += `## ${companyName} vacation sickdays and personal days`;
 tR += `## ${companyName} things done for performance review`;
 
