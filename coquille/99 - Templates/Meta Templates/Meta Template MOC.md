@@ -2,3 +2,5 @@
 [[appendToBottomOfFile]]
 [[ensureFileExists]]
 [[ensureFolderExists]]
+[[dataviewScript]]
+[[getIncompleteTasks]]
