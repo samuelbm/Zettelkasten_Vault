@@ -220,11 +220,11 @@ if (wasYearMocCreated) {
 
 //work vacation, sickdays and personal days
 const dataviewWorkVacationFileName = `${companyName} vacation, sickdays and personal days`;
-const dataviewWorkTimesheetPath = `${dataviewFolderPath}/${dataviewWorkTimesheetFileName}.md`;
-const wasWorkTimesheetFileCreated = await ensureFileExists(`${dataviewWorkTimesheetPath}`);
-const scriptWorkTimesheet = dataviewScript(year, "00 - Daily Notes", "${companyName} vacation, sickdays and personal days");
+const dataviewWorkVacationPath = `${dataviewFolderPath}/${dataviewWorkVacationFileName}.md`;
+const wasWorkVacationFileCreated = await ensureFileExists(`${dataviewWorkVacationPath}`);
+const scriptWorkVacation = dataviewScript(year, "00 - Daily Notes", "${companyName} vacation, sickdays and personal days");
 if (wasYearMocCreated) {
-	await appendToTopOfFile(`${dataviewWorkTimesheetPath}`, `${scriptWorkTimesheet}`); 
+	await appendToTopOfFile(`${dataviewWorkTimesheetPath}`, `${scriptWorkVacation}`); 
 }
 
 //DataviewMoc 
