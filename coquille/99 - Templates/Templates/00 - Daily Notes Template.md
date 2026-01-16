@@ -94,10 +94,11 @@ async function appendToTopOfFile(filePath, content, position = 'top') {
   // Write back
   await app.vault.modify(file, newContent);
 }
+"2026"
 "00 - Daily Notes"
 "Gratitude & Pride"
 //Function
-function formatScript(year, folderPath, heading, yearFilter) { 
+function formatScript(year, folderPath, heading) { 
 	const baseScript = `
 #  ${year}
 \`\`\`dataviewjs
@@ -128,7 +129,7 @@ for (let p of pages) {
 dv.list(allBullets);
 \`\`\`
 `;
-	return `x: ${x}, y: ${y}, z: ${z}, `; 
+	return baseS; 
 }
 
 
