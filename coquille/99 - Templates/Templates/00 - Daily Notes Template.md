@@ -43,7 +43,7 @@ async function getIncompleteTasks(filePath, title) {
       }
     }
   }
-  
+  console.log(incompleteTasks);
   return incompleteTasks;
 }
 
