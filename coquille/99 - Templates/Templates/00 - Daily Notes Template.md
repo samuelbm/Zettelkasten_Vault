@@ -75,6 +75,7 @@ tR += goals.join("");
 
 
 <%*
+tR += `---`;
 tR += `# ${companyName}\n`;
 tR += `## ${companyName} activity log\n`;
  
