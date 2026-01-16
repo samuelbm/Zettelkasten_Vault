@@ -7,5 +7,8 @@ format: TBD
 url: TBD
 duration: TBD
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
-tags: literature
+tags:
+  - literature
+  - "#work"
 ---
+# Course Content
