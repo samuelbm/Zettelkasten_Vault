@@ -81,16 +81,11 @@ tR += `${__Work__} activity log`;
  
 const activityLog = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDailyNoteName}.md`, "activity log");
 tR += activityLog.join("");
-%>
 
 tR += `${__Work__} timesheet`;
-tR += `${__Work__} timesheet`;
+tR += `${__Work__} vacation sickdays and personal days`;
+tR += `${__Work__} things done for performance review`;
 
-## __Work__ vacation sickdays and personal days
-
-## __Work__ things done for performance review
-
-<%*
 // Templates
 //Templates 1
 async function ensureFolderExists(path) {
