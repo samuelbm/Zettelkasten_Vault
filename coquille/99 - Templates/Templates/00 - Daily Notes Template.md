@@ -76,7 +76,7 @@ tR += tasks.join("");
 - [ ] 
 
 ## __Work__ timesheet
-* 
+* 7.50h -  ProjectName  
 
 ## __Work__ vacation sickdays and personal days
 * 
