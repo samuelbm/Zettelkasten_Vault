@@ -210,12 +210,12 @@ if (wasYearMocCreated) {
 	await appendToTopOfFile(`${dataviewWorkThingsDonePath}`, `${scriptWorkThingsDone}`); 
 }
 //work timesheet 
-const dataviewWorkTimesheetFileName = `${companyName} things done`;
-const dataviewWorkTimesheetPath = `${dataviewFolderPath}/${dataviewWorkThingsDoneFileName}.md`;
+const dataviewWorkTimesheetFileName = `${companyName} timesheet`;
+const dataviewWorkTimesheetPath = `${dataviewFolderPath}/${dataviewWorkTimesheetFileName}.md`;
 const wasWorkTimesheetFileCreated = await ensureFileExists(`${dataviewWorkThingsDonePath}`);
-const scriptWorkThingsDone = dataviewScript(year, "00 - Daily Notes", "${companyName} things done (for performance review)");
+const scriptWorkTimesheet = dataviewScript(year, "00 - Daily Notes", "${companyName} things done (for performance review)");
 if (wasYearMocCreated) {
-	await appendToTopOfFile(`${dataviewWorkThingsDonePath}`, `${scriptWorkThingsDone}`); 
+	await appendToTopOfFile(`${dataviewWorkTimesheetPath}`, `${scriptWorkTimesheet}`); 
 }
 
 //work vacation, sickdays and personal days
