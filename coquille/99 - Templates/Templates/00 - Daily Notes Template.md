@@ -57,15 +57,14 @@ const yesterdayMonth = "January";
 const yesterdayMonthIndex = "01";
 const yesterdayDay = "14";
 
-const yesterdayMonthStr = ``
+const yesterdayMonthStr = `${yesterdayMonthIndex} - ${yesterdayMonth} - ${yesterdayYear}`;
 const yesterdayFileName = `Daily ${yesterdayYear}-${yesterdayMonthIndex}-${yesterdayDay}`;
 
 console.log("00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md");
-const tasks = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthIndex} - ${yesterdayMonth} - ${yesterdayYear}/${yesterdayFileName}.md`, "Goals");
+const tasks = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayFileName}.md`, "Goals");
 tR += tasks.join("");
 
 %>
-
 # Daily activity
 - [ ] weigh-in
 - [ ] meditation
