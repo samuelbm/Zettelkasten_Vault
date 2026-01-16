@@ -8,35 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "98987bf78e714210",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Daily 2026-01-15"
-            }
-          },
-          {
             "id": "135aca3b422d2503",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - Daily Notes/Dataview/Daily Notes Dataview MOC.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Daily Notes Dataview MOC"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,8 +180,9 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "135aca3b422d2503",
+  "active": "f6408a460a94aa58",
   "lastOpenFiles": [
+    "00 - Daily Notes/Dataview/Daily Notes Dataview MOC.md",
     "00 - Daily Notes/Dataview/__Work__ vacation, sickdays and personal days.md",
     "00 - Daily Notes/Dataview/__Work__ timesheet.md",
     "00 - Daily Notes/Dataview/__Work__ things done.md",
@@ -211,7 +193,6 @@
     "99 - Templates/Meta Templates/getIncompleteTasks.md",
     "00 - Daily Notes/Years/2026/Daily Notes 2026 MOC.md",
     "00 - Daily Notes/Dataview/Proud.md",
-    "00 - Daily Notes/Dataview/Daily Notes Dataview MOC.md",
     "00 - Daily Notes/Dataview",
     "00 - Daily Notes/Years/Daily Notes MOC.md",
     "00 - Daily Notes/Years/2026/01 - January - 2026",
