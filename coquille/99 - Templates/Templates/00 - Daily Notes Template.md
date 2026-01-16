@@ -161,6 +161,7 @@ const dataviewProudFileName = `Proud`;
 const dataviewProudFilePath = `${dataviewFolderPath}/${dataviewProudFileName}.md`;
 const wasProudFileCreated = await ensureFileExists(`${dataviewProudFilePath}`);
 const scriptProud = `
+# "${year}"
 \`\`\`dataviewjs
 const folder = "00 - Daily Notes";
 const heading = "Gratitude & Pride";
@@ -190,7 +191,6 @@ dv.list(allBullets);
 \`\`\`
 `;
 if (wasProudFileCreated) {
-	await appendToTopOfFile(`${dataviewProudFilePath}`, `# ${year}`);
 	await appendToTopOfFile(`${dataviewProudFilePath}`, `${scriptProud}`); 
 }
 //work things done
