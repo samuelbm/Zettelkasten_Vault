@@ -95,7 +95,8 @@ async function appendToTopOfFile(filePath, content, position = 'top') {
   await app.vault.modify(file, newContent);
 }
 
-//Template 5
+//Function
+function formatScript(folderPath, y, z) { return `x: ${x}, y: ${y}, z: ${z}, `; }
 
 
 // Date
