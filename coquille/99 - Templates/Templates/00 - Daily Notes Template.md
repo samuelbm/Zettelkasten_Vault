@@ -168,8 +168,8 @@ dv.list(allBullets);
 \`\`\`
 `;
 if (wasProudFileCreated) {
-	await appendToFile(`${dataviewProudFilePath}`, `# ${year}`);
-	await appendToFile(`${dataviewProudFilePath}`, `${scriptProud}`); 
+	await appendToTopOfFile(`${dataviewProudFilePath}`, `# ${year}`);
+	await appendToTopOfFile(`${dataviewProudFilePath}`, `${scriptProud}`); 
 }
 //work things done
 
