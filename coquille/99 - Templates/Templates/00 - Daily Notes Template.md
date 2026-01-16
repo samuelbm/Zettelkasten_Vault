@@ -81,8 +81,8 @@ tR += `## ${companyName} activity log\n`;
 const activityLog = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDailyNoteName}.md`, "activity log");
 tR += activityLog.join("");
 
-tR += `## ${companyName} timesheet\n`;
-tR += `## ${companyName} vacation sickdays and personal days\n`;
+tR += `## ${companyName} timesheet\n\n`;
+tR += `## ${companyName} vacation sickdays and personal days\n\n`;
 tR += `## ${companyName} things done for performance review\n`;
 
 // Templates
