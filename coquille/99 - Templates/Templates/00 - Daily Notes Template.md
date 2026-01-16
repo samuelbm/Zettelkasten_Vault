@@ -94,9 +94,7 @@ async function appendToTopOfFile(filePath, content, position = 'top') {
   // Write back
   await app.vault.modify(file, newContent);
 }
-"2026"
-"00 - Daily Notes"
-"Gratitude & Pride"
+
 //Function
 function formatScript(year, folderPath, heading) { 
 	const baseScript = `
@@ -129,7 +127,7 @@ for (let p of pages) {
 dv.list(allBullets);
 \`\`\`
 `;
-	return baseS; 
+	return baseScript; 
 }
 
 
@@ -198,6 +196,13 @@ await ensureFolderExists(`${dataviewFolderPath}`);
 const dataviewProudFileName = `Proud`;
 const dataviewProudFilePath = `${dataviewFolderPath}/${dataviewProudFileName}.md`;
 const wasProudFileCreated = await ensureFileExists(`${dataviewProudFilePath}`);
+
+"2026"
+"00 - Daily Notes"
+"Gratitude & Pride"
+//Function
+function formatScript(year, folderPath, heading) { 
+
 const scriptProud = 
 if (wasYearMocCreated) {
 	await appendToTopOfFile(`${dataviewProudFilePath}`, `${scriptProud}`); 
