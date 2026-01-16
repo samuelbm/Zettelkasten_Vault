@@ -24,7 +24,6 @@ async function getIncompleteTasks(filePath, title) {
   let inSection = false;
   
   for (let line of lines) {
-	  console.log(line);
     // Check if we found the title/heading
     if (line.trim().startsWith("#") && line.includes(title)) {
       inSection = true;
@@ -38,13 +37,13 @@ async function getIncompleteTasks(filePath, title) {
     
     // If we're in the right section, look for incomplete tasks
     if (inSection) {
+	   console.log(line);
       // Match incomplete tasks: - [ ] but not - [x] or - [X]
       if (line.includes("- [ ]")) {
         incompleteTasks.push(line.trim());
       }
     }
   }
-  console.log(incompleteTasks);
   return incompleteTasks;
 }
 
