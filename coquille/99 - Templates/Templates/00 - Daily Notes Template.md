@@ -69,7 +69,7 @@ tR += goals.join("");
 - [ ] miracle morning
 - [ ] musculation
 - [ ] cardio
-- 
+
 # Gratitude & Pride
 
 # Accomplishments
