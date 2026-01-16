@@ -129,7 +129,7 @@ if (wasYearMocCreated) {
 if (wasMonthMocFileCraeted) {
 	await appendToFile(`${yearMocFilePath}`, `[[${monthMocFileName}]]`); // only if month created
 }
-//await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); //always
+await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); //always
 
 //Add Dataview and Dataview MOC
 const dataviewFolderPath = `${baseFolderPath}/Dataview`;
