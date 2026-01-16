@@ -56,11 +56,11 @@ const yesterdayYear = tp.date.now("YYYY", -1);
 const yesterdayMonth = tp.date.now("MMMM", -1);
 const yesterdayMonthIndex = tp.date.now("MM", -1);
 const yesterdayDay = tp.date.now("DD", -1);
-const yesterdayDateStr = tp.date.now("YYYY-MM-DD", -1);
+const yesterdayDailyNoteName = `Daily ${tp.date.now("YYYY-MM-DD", -1)}`;
 const yesterdayMonthStr = `${yesterdayMonthIndex} - ${yesterdayMonth} - ${yesterdayYear}`;
 
 console.log("00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md");
-const tasks = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDateStr}.md`, "Goals");
+const tasks = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDailyNoteName}.md`, "Goals");
 tR += tasks.join("");
 %>
 # Daily activity
