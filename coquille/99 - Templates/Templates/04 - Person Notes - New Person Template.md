@@ -12,8 +12,8 @@ authors:
 tags:
   - "#person"
 ---
-
-
+# Things to remember
+* 
 <%*
 const dateStr = tp.date.now("YYYY-MM-DD-HH-mm-ss");  
 
@@ -26,5 +26,4 @@ const noteName = "Person Note " + dateStr;
 // Move the note
 await tp.file.move(`${folderPath}/People/${noteName}`);
 %>
-# Things to remember
-* 
+

@@ -1,3 +1,9 @@
+
+
+
+# Things to remember
+
+
 <%*
 const dateStr = tp.date.now("YYYY-MM-DD-HH-mm-ss");  
 
@@ -10,4 +16,3 @@ const noteName = "Person Note " + dateStr;
 // Move the note
 await tp.file.move(`${folderPath}/People Notes/${noteName}`);
 %>
-# Things to remember
