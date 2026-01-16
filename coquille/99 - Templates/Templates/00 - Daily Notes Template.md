@@ -54,11 +54,11 @@ async function getIncompleteTasks(filePath, title) {
 
 const yesterday_year = "2026";
 const yesterday_month = "January";
-const yesterday_monthIndex = "1";
-const yesterday_day =
+const yesterday_monthIndex = "01";
+const yesterday_day = "14";
 
 console.log("00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md");
-const tasks = await getIncompleteTasks("00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md", "Goals");
+const tasks = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterday_year}/${yesterday_month} - January - 2026/Daily 2026-01-15.md`, "Goals");
 tR += tasks.join("");
 
 %>
