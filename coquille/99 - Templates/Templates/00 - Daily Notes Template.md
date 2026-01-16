@@ -95,7 +95,7 @@ async function appendToTopOfFile(filePath, content, position = 'top') {
   await app.vault.modify(file, newContent);
 }
 
-//Function
+// Template 5
 function formatScript(year, folderPath, heading) { 
 	const baseScript = `
 #  ${year}
@@ -196,11 +196,6 @@ await ensureFolderExists(`${dataviewFolderPath}`);
 const dataviewProudFileName = `Proud`;
 const dataviewProudFilePath = `${dataviewFolderPath}/${dataviewProudFileName}.md`;
 const wasProudFileCreated = await ensureFileExists(`${dataviewProudFilePath}`);
-
-"2026"
-"00 - Daily Notes"
-"Gratitude & Pride"
-
 const scriptProud = formatScript(year, "00 - Daily Notes", "Gratitude & Pride");
 if (wasYearMocCreated) {
 	await appendToTopOfFile(`${dataviewProudFilePath}`, `${scriptProud}`); 
