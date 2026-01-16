@@ -63,7 +63,6 @@ const yesterdayFileName = `Daily ${yesterdayYear}-${yesterdayMonthIndex}-${yeste
 console.log("00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md");
 const tasks = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayFileName}.md`, "Goals");
 tR += tasks.join("");
-
 %>
 # Daily activity
 - [ ] weigh-in
@@ -82,13 +81,11 @@ tR += tasks.join("");
 - [ ] 
 
 ## __Work__ timesheet
-* 7.50h -  ProjectName  
 
 ## __Work__ vacation sickdays and personal days
-* 
 
 ## __Work__ things done for performance review
-* 
+
 <%*
 // Templates
 const companyName = "__Work__";
