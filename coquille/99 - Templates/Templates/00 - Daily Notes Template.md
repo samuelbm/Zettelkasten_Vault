@@ -37,7 +37,6 @@ async function getIncompleteTasks(filePath, title) {
     
     // If we're in the right section, look for incomplete tasks
     if (inSection) {
-	   console.log(line);
       // Match incomplete tasks: - [ ] but not - [x] or - [X]
       if (line.includes("- [ ]")) {
         incompleteTasks.push(line.trim());
@@ -49,7 +48,6 @@ async function getIncompleteTasks(filePath, title) {
 
 // template 2
 
-console.log("allo world");
 console.log("00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md");
 const tasks = await getIncompleteTasks("00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md", "Goals");
 console.log(tasks);
