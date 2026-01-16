@@ -38,13 +38,18 @@ async function getIncompleteTasks(filePath, title) {
     // If we're in the right section, look for incomplete tasks
     if (inSection) {
       // Match incomplete tasks: - [ ] but not - [x] or - [X]
-      if (line.includes("- [ ]")) {
-        incompleteTasks.push(line.trim());
-      }
+		if (line.includes("- [ ]")) {
+			incompleteTasks.push(line.trim() + "\n");
+		}
     }
   }
+  
   return incompleteTasks;
 }
+
+// Example usage:
+// const tasks = await getIncompleteTasks("path/to/file.md", "My Section");
+// console.log(tasks);
 
 // template 2
 
