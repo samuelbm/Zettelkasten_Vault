@@ -128,7 +128,7 @@ const yesterdayMonthIndex = tp.date.now("MM", -1);
 const yesterdayDay = tp.date.now("DD", -1);
 const yesterdayDailyNoteName = `Daily ${tp.date.now("YYYY-MM-DD", -1)}`;
 const yesterdayMonthStr = `${yesterdayMonthIndex} - ${yesterdayMonth} - ${yesterdayYear}`;
-const tasks = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDailyNoteName}.md`, "Goals");
+const tasks = await getIncompleteTasks(`00 - Daily Notes/Years/${yesterdayYear}/${yesterdayMonthStr}/${yesterdayDailyNoteName}.md`, "activity log");
 tR += tasks.join("");
 %>
 ## __Work__ timesheet
