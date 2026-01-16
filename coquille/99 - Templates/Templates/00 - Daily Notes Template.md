@@ -220,6 +220,6 @@ const wasDataviewMocFileCreated = await ensureFileExists(`${dataviewMocFilePath}
 if (wasProudFileCreated)
 {
 	await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
-		await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
+	await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewWorkThingsDoneFileName}]]`);
 } 
 %>
