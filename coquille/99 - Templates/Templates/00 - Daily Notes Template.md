@@ -72,14 +72,15 @@ tR += tasks.join("");
 - [ ] musculation
 - [ ] cardio
 # Gratitude & Pride
-* 
+
 # Accomplishments
-* 
 
 # __Work__
-## __Work__ activity log 
-- [ ] 
 
+## __Work__ activity log 
+<%*
+
+%>
 ## __Work__ timesheet
 
 ## __Work__ vacation sickdays and personal days
