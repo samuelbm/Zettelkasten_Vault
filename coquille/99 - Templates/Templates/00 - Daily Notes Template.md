@@ -303,6 +303,6 @@ if (wasWorkVacationFileCreated)
 }
 if (wasDataviewMocFileCreated)
 {
-	await appendToBottomOfFile(`${dataviewMocFilePath}`, `[[${dataviewMocFileName}]]`);
+	await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewMocFileName}]]`);
 }
 %>
