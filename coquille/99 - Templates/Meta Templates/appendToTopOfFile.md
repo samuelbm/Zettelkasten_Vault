@@ -1,4 +1,4 @@
-async function appendToFile(filePath, content, position = 'bottom') {
+async function appendToTopOfFile(filePath, content, position = 'bottom') {
   // Get the file object
   const file = app.vault.getAbstractFileByPath(filePath);
   

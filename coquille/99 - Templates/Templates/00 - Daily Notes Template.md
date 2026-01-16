@@ -42,7 +42,7 @@ async function ensureFolderExists(path) {
 }
 
 //Templates 2
-async function appendToBottomOfFile(filePath, content) {
+async function appendToBottomFile(filePath, content) {
   // Get the file object
   const file = app.vault.getAbstractFileByPath(filePath);
   
@@ -61,6 +61,7 @@ async function appendToBottomOfFile(filePath, content) {
   await app.vault.modify(file, newContent);
 }
 
+
 //Template 3
 async function ensureFileExists(filePath, content = "") {
   const file = app.vault.getAbstractFileByPath(filePath);
@@ -74,7 +75,7 @@ async function ensureFileExists(filePath, content = "") {
 }
 
 //Template 4
-async function appendToFile(filePath, content, position = 'bottom') {
+async function appendToTopOfFile(filePath, content, position = 'bottom') {
   // Get the file object
   const file = app.vault.getAbstractFileByPath(filePath);
   
