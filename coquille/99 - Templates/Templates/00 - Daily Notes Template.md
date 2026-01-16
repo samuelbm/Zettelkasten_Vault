@@ -200,10 +200,8 @@ const wasProudFileCreated = await ensureFileExists(`${dataviewProudFilePath}`);
 "2026"
 "00 - Daily Notes"
 "Gratitude & Pride"
-//Function
-function formatScript(year, folderPath, heading) { 
 
-const scriptProud = 
+const scriptProud = formatScript(year, "00 - Daily Notes", "Gratitude & Pride");
 if (wasYearMocCreated) {
 	await appendToTopOfFile(`${dataviewProudFilePath}`, `${scriptProud}`); 
 }
