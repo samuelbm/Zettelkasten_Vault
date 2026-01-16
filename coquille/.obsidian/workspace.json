@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Daily Notes/Dataview/Proud.md",
+                "file": "99 - Templates/Templates/00 - Daily Notes Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proud"
+              "title": "00 - Daily Notes Template"
             }
           }
         ]
@@ -186,6 +186,7 @@
   },
   "active": "7807b1979faa4882",
   "lastOpenFiles": [
+    "00 - Daily Notes/Dataview/Proud.md",
     "00 - Daily Notes/Dataview/Daily Notes Dataview MOC.md",
     "00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-16.md",
     "99 - Templates/Templates/00 - Daily Notes Template.md",
@@ -194,7 +195,6 @@
     "00 - Daily Notes/Years/2026/01 - January - 2026",
     "00 - Daily Notes/Years/2026",
     "00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md",
-    "00 - Daily Notes/Dataview/Proud.md",
     "00 - Daily Notes/Years/Daily Notes MOC.md",
     "99 - Templates/Meta Templates/appendToTopOfFile.md",
     "99 - Templates/Meta Templates/appendToBottomOfFile.md",
