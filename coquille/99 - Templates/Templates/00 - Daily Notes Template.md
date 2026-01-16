@@ -26,10 +26,10 @@ tags:
 ## __Work__ timesheet
 * 
 
-## __Work__ vacation, sick days and personal days
+## __Work__ vacation sick days and personal days
 * 
 
-## __Work__ things done (for performance review)
+## __Work__ things done for performance review
 * 
 <%*
 // Templates
@@ -205,7 +205,7 @@ if (wasYearMocCreated) {
 const dataviewWorkThingsDoneFileName = `${companyName} things done`;
 const dataviewWorkThingsDonePath = `${dataviewFolderPath}/${dataviewWorkThingsDoneFileName}.md`;
 const wasWorkThingsDoneFileCreated = await ensureFileExists(`${dataviewWorkThingsDonePath}`);
-const scriptWorkThingsDone = dataviewScript(year, "00 - Daily Notes", `${companyName} things done (for performance review)`);
+const scriptWorkThingsDone = dataviewScript(year, "00 - Daily Notes", `${companyName} things done for performance review)`);
 if (wasYearMocCreated) {
 	await appendToTopOfFile(`${dataviewWorkThingsDonePath}`, `${scriptWorkThingsDone}`); 
 }
@@ -222,7 +222,7 @@ if (wasYearMocCreated) {
 const dataviewWorkVacationFileName = `${companyName} vacation, sickdays and personal days`;
 const dataviewWorkVacationPath = `${dataviewFolderPath}/${dataviewWorkVacationFileName}.md`;
 const wasWorkVacationFileCreated = await ensureFileExists(`${dataviewWorkVacationPath}`);
-const scriptWorkVacation = dataviewScript(year, "00 - Daily Notes", `${companyName} vacation, sickdays and personal days`);
+const scriptWorkVacation = dataviewScript(year, "00 - Daily Notes", `${companyName} vacation sickdays and personal days`);
 if (wasYearMocCreated) {
 	await appendToTopOfFile(`${dataviewWorkVacationPath}`, `${scriptWorkVacation}`); 
 }
