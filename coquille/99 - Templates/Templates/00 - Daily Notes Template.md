@@ -47,9 +47,12 @@ async function getIncompleteTasks(filePath, title) {
   return incompleteTasks;
 }
 
-// Example usage:
-// const tasks = await getIncompleteTasks("path/to/file.md", "My Section");
-// console.log(tasks);
+// template 2
+
+
+
+const tasks = await getIncompleteTasks("path/to/file.md", "My Section");
+console.log(tasks);
 
 %>
 
