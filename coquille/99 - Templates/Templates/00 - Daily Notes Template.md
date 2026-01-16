@@ -132,9 +132,10 @@ if (wasMonthMocFileCreated) {
 await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); //always
 
 //Add Dataview and Dataview MOC
+
 const dataviewFolderPath = `${baseFolderPath}/Dataview`;
 await ensureFolderExists(`${dataviewFolderPath}`);
-
+//Proud
 const dataviewProudFileName = `Proud`;
 const dataviewProudFilePath = `${dataviewFolderPath}/${dataviewProudFileName}.md`;
 const wasProudFileCreated = await ensureFileExists(`${dataviewProudFilePath}`);
@@ -171,7 +172,9 @@ if (wasProudFileCreated) {
 	await appendToFile(`${dataviewProudFilePath}`, `# ${year}`);
 	await appendToFile(`${dataviewProudFilePath}`, `${scriptProud}`); 
 }
- 
+
+
+//DataviewMoc 
 const dataviewMocFileName = `Daily Notes Dataview MOC`;
 const dataviewMocFilePath = `${dataviewFolderPath}/${dataviewMocFileName}.md`;
 const wasDataviewMocFileCreated = await ensureFileExists(`${dataviewMocFilePath}`);
