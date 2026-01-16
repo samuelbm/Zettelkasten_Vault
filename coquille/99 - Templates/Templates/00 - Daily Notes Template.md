@@ -19,17 +19,17 @@ tags:
 # Accomplishments
 * 
 
-# Work
-## Thales activity log 
+# __Work__
+## __Work__ activity log 
 - [ ] 
 
-## Thales Timesheet
+## __Work__ Timesheet
 * 
 
-## Thales vacation, sick days and personal days
+## __Work__ vacation, sick days and personal days
 * 
 
-## Thales things done (for performance review)
+## __Work__ things done (for performance review)
 * 
 <%*
 // Templates
