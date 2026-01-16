@@ -1,14 +1,14 @@
 ---
 type: literature
-source: TBD
-author: TBD
-year: 0
-format: TBD
-url: TBD
-pages: TBD
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
 tags: literature
 ---
+# Course Content
+
+
+
+# References / Sources
+* 
 <%*
 const dateStr = tp.date.now("YYYY-MM-DD");  
 
@@ -19,12 +19,5 @@ const folderPath = "02 - Literature Notes";
 const noteName = "Literature Note " + dateStr;
 
 // Move the note
-await tp.file.move(`${folderPath}/Notes/${noteName}`);
+await tp.file.move(`${folderPath}/Work Projects/${noteName}`);
 %>
-# Chapter xx
-* 
-
-
-# References / Sources
-* 
-
