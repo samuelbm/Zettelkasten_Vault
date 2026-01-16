@@ -62,6 +62,7 @@ async function appendToBottomFile(filePath, content) {
 }
 
 
+
 //Template 3
 async function ensureFileExists(filePath, content = "") {
   const file = app.vault.getAbstractFileByPath(filePath);
@@ -160,9 +161,9 @@ await ensureFolderExists(`${dataviewFolderPath}`);
 //Proud
 const dataviewProudFileName = `Proud`;
 const dataviewProudFilePath = `${dataviewFolderPath}/${dataviewProudFileName}.md`;
-const wasProudFileCreated = await ensureFileExists(`${dataviewProudFilePath}`); //# "${year}"
+const wasProudFileCreated = await ensureFileExists(`${dataviewProudFilePath}`);
 const scriptProud = `
-
+# "${year}"
 \`\`\`dataviewjs
 const folder = "00 - Daily Notes";
 const heading = "Gratitude & Pride";
