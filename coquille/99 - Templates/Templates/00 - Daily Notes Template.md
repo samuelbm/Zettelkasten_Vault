@@ -123,13 +123,13 @@ const wasYearMocCreated = await ensureFileExists(`${yearMocFilePath}`);
 const wasMonthMocFileCreated = await ensureFileExists(`${monthMocFilePath}`);
 
 // Add link to MOC Files
-if (wasYearMocCreated) {
-	await appendToFile(`${yearsMocFilePath}`, `[[${yearMocFileName}]]`); // only if year created
-}
-if (wasMonthMocFileCraeted) {
-	await appendToFile(`${yearMocFilePath}`, `[[${monthMocFileName}]]`); // only if month created
-}
-await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); //always
+//if (wasYearMocCreated) {
+//	await appendToFile(`${yearsMocFilePath}`, `[[${yearMocFileName}]]`); // only if year created
+//}
+//if (wasMonthMocFileCraeted) {
+//	await appendToFile(`${yearMocFilePath}`, `[[${monthMocFileName}]]`); // only if month created
+//}
+//await appendToFile(`${monthMocFilePath}`, `[[${dailyNoteFileName}]]`); //always
 
 //Add Dataview and Dataview MOC
 const dataviewFolderPath = `${baseFolderPath}/Dataview`;
