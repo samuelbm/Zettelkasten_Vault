@@ -196,7 +196,7 @@ await ensureFolderExists(`${dataviewFolderPath}`);
 const dataviewProudFileName = `Proud`;
 const dataviewProudFilePath = `${dataviewFolderPath}/${dataviewProudFileName}.md`;
 const wasProudFileCreated = await ensureFileExists(`${dataviewProudFilePath}`);
-const scriptProud = formatScript(year, "00 - Daily Notes", "Gratitude & Pride");
+const scriptProud = dataviewScript(year, "00 - Daily Notes", "Gratitude & Pride");
 if (wasYearMocCreated) {
 	await appendToTopOfFile(`${dataviewProudFilePath}`, `${scriptProud}`); 
 }
