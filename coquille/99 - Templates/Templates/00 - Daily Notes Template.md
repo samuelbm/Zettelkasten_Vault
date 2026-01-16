@@ -96,7 +96,7 @@ async function appendToTopOfFile(filePath, content, position = 'top') {
 }
 
 //Function
-function formatScript(folderPath, heading, yearFilter) { 
+function formatScript(year, folderPath, heading, yearFilter) { 
 	const baseScript = `
 #  ${year}
 \`\`\`dataviewjs
