@@ -204,6 +204,6 @@ const dataviewMocFilePath = `${dataviewFolderPath}/${dataviewMocFileName}.md`;
 const wasDataviewMocFileCreated = await ensureFileExists(`${dataviewMocFilePath}`);
 if (wasProudFileCreated)
 {
-	await appendToFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
+	await appendToTopOfFile(`${dataviewMocFilePath}`, `[[${dataviewProudFileName}]]`);
 } 
 %>
