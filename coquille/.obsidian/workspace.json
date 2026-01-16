@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Templates/Template MOC.md",
+                "file": "99 - Templates/Templates/02 - Literature Notes - Work Note Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Template MOC"
+              "title": "02 - Literature Notes - Work Note Template"
             }
           }
         ]
@@ -184,8 +184,18 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "f6408a460a94aa58",
+  "active": "135aca3b422d2503",
   "lastOpenFiles": [
+    "99 - Templates/Template MOC.md",
+    "99 - Templates/Templates/07 - Content Notes - Project Note Template.md",
+    "99 - Templates/Templates/07 - Content Notes - New Project Template.md",
+    "99 - Templates/Templates/06 - Knowledge Notes Template.md",
+    "99 - Templates/Templates/05 - Meeting Notes Template.md",
+    "99 - Templates/Templates/04 - Person Notes - Person Note Template.md",
+    "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
+    "99 - Templates/Templates/03 - Permanent Notes Template.md",
+    "99 - Templates/Templates/02 - Literature Notes - Work Note Template.md",
+    "99 - Templates/Templates/02 - Literature Notes - New Work Template.md",
     "02 - Literature Notes/Works",
     "02 - Literature Notes/Work Projects",
     "02 - Literature Notes/Work Notes",
@@ -211,16 +221,6 @@
     "99 - Templates/Meta Templates/Meta Template MOC.md",
     "00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-15.md",
     "99 - Templates/Meta Templates/getIncompleteTasks.md",
-    "00 - Daily Notes/Dataview/__Work__ vacation sickdays and personal days.md",
-    "99 - Templates/Meta Templates/dataviewScript.md",
-    "99 - Templates/Meta Templates/ensureFileExists.md",
-    "00 - Daily Notes/Dataview/Work things done.md",
-    "99 - Templates/Template MOC.md",
-    "99 - Templates/Meta Templates/appendToTopOfFile.md",
-    "99 - Templates/Meta Templates/appendToBottomOfFile.md",
-    "00 - Daily Notes/Years/2024/01 - January - 2026/Daily 2026-01-16.md",
-    "00 - Daily Notes/Years/2024/01 - January - 2026/Daily Notes 2026 January MOC.md",
-    "00 - Daily Notes/Years/2024/01 - January - 2026",
-    "00 - Daily Notes/Years/2024"
+    "00 - Daily Notes/Years/2024/01 - January - 2026"
   ]
 }
