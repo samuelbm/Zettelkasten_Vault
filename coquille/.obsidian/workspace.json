@@ -8,6 +8,16 @@
         "type": "tabs",
         "children": [
           {
+            "id": "5774d4e2d217a4b0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
             "id": "135aca3b422d2503",
             "type": "leaf",
             "state": {
@@ -184,10 +194,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "135aca3b422d2503",
+  "active": "5774d4e2d217a4b0",
   "lastOpenFiles": [
-    "04 - Person Notes/People/Person Note 2026-01-16-15-57-18.md",
     "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
+    "04 - Person Notes/People/Person Note 2026-01-16-15-57-18.md",
     "04 - Person Notes/People/Person Note 2026-01-16-15-57-04.md",
     "04 - Person Notes/People/Person Note 2026-01-16-15-56-51.md",
     "04 - Person Notes/People/Person Note 2026-01-16-15-56-14.md",
