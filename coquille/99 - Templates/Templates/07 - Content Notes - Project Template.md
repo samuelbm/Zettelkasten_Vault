@@ -16,7 +16,7 @@ tags:
 const folderPath = "07 - Content Notes";
 
 // Prompt for note title
-const noteName = "Literature Note";
+const noteName = "New Project";
 
 // Move the note
 await tp.file.move(`${folderPath}/Work Projects/${noteName}`);
