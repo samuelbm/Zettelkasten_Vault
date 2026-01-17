@@ -1,6 +1,7 @@
 ---
 type: knowledge
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
+MOC:
 tags:
   - "#knowledge"
   - "#notes"
