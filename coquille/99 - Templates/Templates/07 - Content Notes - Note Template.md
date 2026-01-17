@@ -5,7 +5,7 @@ tags:
   - "#notes"
   - content
 ---
-# Chapter
+# Notes
 * 
 <%*
 const dateStr = tp.date.now("YYYY-MM-DD");  
