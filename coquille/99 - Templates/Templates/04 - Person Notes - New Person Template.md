@@ -1,4 +1,5 @@
 ---
+type: person
 Jobs:
 hobbies:
 birthdate:
@@ -9,6 +10,7 @@ children:
 friends:
 collegues:
 authors:
+id: 
 tags:
   - "#person"
 ---

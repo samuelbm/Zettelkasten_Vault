@@ -29,7 +29,7 @@
               "state": {
                 "file": "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "04 - Person Notes - New Person Template"
@@ -219,10 +219,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "419d0b2773c3cd0d",
+  "active": "04a9343f4277965d",
   "lastOpenFiles": [
-    "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
     "99 - Templates/Templates/04 - Person Notes - Person Note Template.md",
+    "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
     "04 - Person Notes/People/Person Note 2026-01-16-18-47-49.md",
     "04 - Person Notes/People/Person Note 2026-01-16-15-57-18.md",
     "04 - Person Notes/People/Person Note 2026-01-16-15-57-04.md",
