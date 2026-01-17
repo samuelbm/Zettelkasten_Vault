@@ -13,6 +13,7 @@ authors:
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
 tags:
   - "#person"
+  - "#notes"
 ---
 # Notes
 ```dataviewjs

@@ -1,11 +1,9 @@
 ---
 type: person
 people:
-id: 20260110043438
+id: <% tp.date.now("YYYYMMDDHHmmss") %>
 tags: person
 ---
-
-
 # Things to remember
 
 

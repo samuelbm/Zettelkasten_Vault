@@ -6,6 +6,9 @@
     "friends": "multitext",
     "collegues": "multitext",
     "authors": "multitext",
-    "children": "multitext"
+    "children": "multitext",
+    "siblings": "multitext",
+    "Parents": "multitext",
+    "partners": "multitext"
   }
 }
