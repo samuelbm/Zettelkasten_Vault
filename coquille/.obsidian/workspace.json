@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
+                "file": "99 - Templates/Templates/04 - Person Notes - Person Note Template.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "04 - Person Notes - New Person Template"
+              "title": "04 - Person Notes - Person Note Template"
             }
           }
         ]
@@ -204,12 +204,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "419d0b2773c3cd0d",
+  "active": "135aca3b422d2503",
   "lastOpenFiles": [
-    "04 - Person Notes/People Notes/Person Note 2026-01-16-20-01-37.md",
-    "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
-    "99 - Templates/Templates/02 - Literature Notes - Work Note Template.md",
     "99 - Templates/Templates/04 - Person Notes - Person Note Template.md",
+    "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
+    "04 - Person Notes/People Notes/Person Note 2026-01-16-20-01-37.md",
+    "99 - Templates/Templates/02 - Literature Notes - Work Note Template.md",
     "04 - Person Notes/People/myriam.md",
     "04 - Person Notes/People Notes/Person Note 2026-01-16-19-54-52.md",
     "04 - Person Notes/People/Person Note 2026-01-16-19-51-34.md",
