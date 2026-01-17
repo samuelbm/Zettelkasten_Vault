@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Templates/Templates/06 - Knowledge Notes Template.md",
+                "file": "06 - Knowledge Notes/Knowledge Notes MOC.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "06 - Knowledge Notes Template"
+              "title": "Knowledge Notes MOC"
             }
           }
         ]
@@ -206,9 +206,10 @@
   },
   "active": "e00fd69a3b710a96",
   "lastOpenFiles": [
-    "03 - Permanent Notes/Untitled.md",
-    "99 - Templates/Templates/00 - Daily Notes Template.md",
+    "06 - Knowledge Notes/Knowledge Notes.md",
+    "06 - Knowledge Notes/Knowledge Notes MOC.md",
     "99 - Templates/Templates/06 - Knowledge Notes Template.md",
+    "99 - Templates/Templates/00 - Daily Notes Template.md",
     "06 - Knowledge Notes Template",
     "99 - Templates/Templates/03 - Permanent Notes Template.md",
     "99 - Templates/Templates/04 - Person Notes - Person Note Template.md",

@@ -24,7 +24,7 @@ async function ensureFileExists(filePath, content = "") {
   return false;    // file already existed
 }
 
-const knowledgeNotesBasePath = "06 - Knowledge Notes Template";
+const knowledgeNotesBasePath = "06 - Knowledge Notes";
 const knowledgeNotesMocFilePath = `${knowledgeNotesBasePath}/Knowledge Notes MOC.md`;
 const knowledgeNotesFilePath = `${knowledgeNotesBasePath}/Knowledge Notes`;
 
