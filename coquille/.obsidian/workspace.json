@@ -22,26 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "35083cc7e54e3225",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ccc49df85fec3401",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99 - Templates/Templates/05 - Meeting Notes Template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "05 - Meeting Notes Template"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -204,20 +184,23 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "ccc49df85fec3401",
+  "active": "e00fd69a3b710a96",
   "lastOpenFiles": [
+    "06 - Knowledge Notes Template",
+    "03 - Permanent Notes/Untitled.md",
+    "99 - Templates/Templates/03 - Permanent Notes Template.md",
+    "99 - Templates/Templates/04 - Person Notes - Person Note Template.md",
+    "99 - Templates/Templates/05 - Meeting Notes Template.md",
     "99 - Templates/Templates/00 - Daily Notes Template.md",
     "99 - Templates/Templates/06 - Knowledge Notes Template.md",
     "99 - Templates/Templates/02 - Literature Notes - New Work Template.md",
     "99 - Templates/Templates/02 - Literature Notes - Work Note Template.md",
-    "99 - Templates/Templates/03 - Permanent Notes Template.md",
     "05 - Meeting Notes/Meeting Note 2026-01-17-07-47-56.md",
     "03 - Permanent Notes/Permanent Note.md",
     "04 - Person Notes/People Notes/Person Note 2026-01-17-07-38-56.md",
     "04 - Person Notes/People/Myriam.md",
     "03 - Permanent Notes/Permanent Note 2026-01-16.md",
     "03 - Permanent Notes/Notes",
-    "99 - Templates/Templates/05 - Meeting Notes Template.md",
     "05 - Meeting Notes/Meeting Note 2026-01-16-21-07-37.md",
     "00 - Daily Notes/Years/Daily Notes MOC.md",
     "00 - Daily Notes/Years/2026/01 - January - 2026/Daily 2026-01-16.md",
@@ -230,11 +213,8 @@
     "99 - Templates/Template MOC.md",
     "04 - Person Notes/People Notes/Person Note 2026-01-16-20-17-59.md",
     "04 - Person Notes/People Notes/Person Note 2026-01-16-20-01-37.md",
-    "99 - Templates/Templates/04 - Person Notes - Person Note Template.md",
     "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
     "04 - Person Notes/People/myriam.md",
-    "04 - Person Notes/People Notes/Person Note 2026-01-16-19-54-52.md",
-    "04 - Person Notes/People/Person Note 2026-01-16-19-51-34.md",
     "04 - Person Notes/People",
     "04 - Person Notes/People Notes",
     "02 - Literature Notes/Work Notes",
