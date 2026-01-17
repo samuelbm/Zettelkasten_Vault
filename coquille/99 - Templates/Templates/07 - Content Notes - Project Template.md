@@ -1,6 +1,6 @@
 ---
 type: Content
-format: TBD
+format:
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
 tags:
   - "#project"

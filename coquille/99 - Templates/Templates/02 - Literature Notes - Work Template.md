@@ -1,11 +1,11 @@
 ---
 type: literature
-source: TBD
-author: TBD
-year: 0
-format: TBD
-url: TBD
-duration: TBD
+source:
+author:
+year:
+format:
+url:
+duration:
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
 tags:
   - literature

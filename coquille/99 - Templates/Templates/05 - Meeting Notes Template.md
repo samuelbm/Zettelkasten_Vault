@@ -2,8 +2,8 @@
 type: meeting
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
 status: draft
-Project: TBD
-duration: TBD
+Project:
+duration:
 tags:
   - "#meeting"
 ---
