@@ -23,5 +23,5 @@ const folderPath = "03 - Permanent Notes";
 const noteName = "Permanent Note " + dateStr;
 
 // Move the note
-await tp.file.move(`${folderPath}/Notes/${noteName}`);
+await tp.file.move(`${folderPath}/${noteName}`);
 %>
