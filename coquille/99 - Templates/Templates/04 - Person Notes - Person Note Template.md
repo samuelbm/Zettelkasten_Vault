@@ -1,4 +1,9 @@
-
+---
+type: person
+people:
+id: 20260110043438
+tags: person
+---
 
 
 # Things to remember
