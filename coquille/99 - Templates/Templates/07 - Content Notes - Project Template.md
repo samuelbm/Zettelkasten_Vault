@@ -1,15 +1,11 @@
 ---
-type: literature
-source: TBD
-author: TBD
-year: 0
+type: Content
 format: TBD
-url: TBD
 duration: TBD
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
 tags:
-  - literature
-  - "#work"
+  - "#project"
+  - "#content"
 ---
 # Course Content
 

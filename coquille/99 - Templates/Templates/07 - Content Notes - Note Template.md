@@ -1,9 +1,9 @@
 ---
-type: literature
+type: content
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
 tags:
-  - literature
   - "#notes"
+  - content
 ---
 # Chapter
 * 
