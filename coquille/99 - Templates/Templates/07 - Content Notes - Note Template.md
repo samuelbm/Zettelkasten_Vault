@@ -14,5 +14,5 @@ const folderPath = "07 - Content Notes";
 const noteName = "Project Note";
 
 // Move the note
-await tp.file.move(`${folderPath}/Work Notes/${noteName}`);
+await tp.file.move(`${folderPath}/Project Notes/${noteName}`);
 %>
