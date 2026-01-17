@@ -5,3 +5,10 @@ tags:
   - "#knowledge"
   - "#notes"
 ---
+# Context / Problem
+
+# Notes
+
+# References / Sources
+* 
+
