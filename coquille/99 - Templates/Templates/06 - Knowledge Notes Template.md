@@ -28,6 +28,6 @@ const knowledgeNotesBasePath = "06 - Knowledge Notes Template";
 const knowledgeNotesMocFilePath = `${knowledgeNotesBasePath}/Knowledge Notes MOC.md`;
 const knowledgeNotesFilePath = `${knowledgeNotesBasePath}/Knowledge Notes`;
 
-//const wasKnowledgeMocFileCreated = await ensureFileExists(`${knowledgeNotesMocFilePath}`);
+const wasKnowledgeMocFileCreated = await ensureFileExists(`${knowledgeNotesMocFilePath}`);
 await tp.file.move(`${knowledgeNotesFilePath}`);
 %>
