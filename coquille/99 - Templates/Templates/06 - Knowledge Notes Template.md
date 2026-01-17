@@ -14,7 +14,6 @@ tags:
 * 
 
 <%* 
-const knowledgeNotesFilePath = `06 - Knowledge Notes/Knowledge Notes`;
-const wasKnowledgeMocFileCreated = await ensureFileExists(`${knowledgeNotesMocFilePath}`);
+const knowledgeNotesFilePath = "06 - Knowledge Notes/Knowledge Notes";
 await tp.file.move(`${knowledgeNotesFilePath}`);
 %>
