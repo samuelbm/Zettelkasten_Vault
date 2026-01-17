@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Permanent Notes/Permanent Note.md",
+                "file": "99 - Templates/Templates/03 - Permanent Notes Template.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Permanent Note"
+              "title": "03 - Permanent Notes Template"
             }
           }
         ]
