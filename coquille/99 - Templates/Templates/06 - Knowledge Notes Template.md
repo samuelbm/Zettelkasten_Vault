@@ -14,6 +14,6 @@ tags:
 * 
 
 <%* 
-const knowledgeNotesFilePath = "06 - Knowledge Notes/Knowledge Notes";
+const knowledgeNotesFilePath = "06 - Knowledge Notes/Knowledge Note";
 await tp.file.move(`${knowledgeNotesFilePath}`);
 %>
