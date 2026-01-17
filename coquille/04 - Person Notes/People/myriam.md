@@ -16,7 +16,6 @@ tags:
   - "#notes"
 ---
 # Notes
-* 
 
 ```dataviewjs
 const folder = "04 - Person Notes/People Notes";
