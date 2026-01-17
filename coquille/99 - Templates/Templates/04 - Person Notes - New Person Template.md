@@ -17,15 +17,12 @@ tags:
 ---
 # Notes
 <%* 
-const dateStr = tp.date.now("YYYY-MM-DD-HH-mm-ss");  
-// Folder to move note into
 const folderPath = "04 - Person Notes";
 // Prompt for note title
-const noteName = "Person Note " + dateStr;
+const noteName = "Person Note";
 // Move the note
 await tp.file.move(`${folderPath}/People/${noteName}`);
 %>
-
 ```dataviewjs
 const folder = "04 - Person Notes/People";
 const heading = "Things to remember";
