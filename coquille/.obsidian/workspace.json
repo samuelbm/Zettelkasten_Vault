@@ -11,14 +11,10 @@
             "id": "e00fd69a3b710a96",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99 - Templates/Templates/00 - Daily Notes Template.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "00 - Daily Notes Template"
+              "title": "New tab"
             }
           }
         ]
@@ -186,6 +182,10 @@
   },
   "active": "e00fd69a3b710a96",
   "lastOpenFiles": [
+    "04 - Person Notes/People Notes/Person Note 2026-01-17-07-38-56.md",
+    "04 - Person Notes/People/Myriam.md",
+    "03 - Permanent Notes/Untitled.md",
+    "99 - Templates/Templates/00 - Daily Notes Template.md",
     "99 - Templates/Templates/03 - Permanent Notes Template.md",
     "03 - Permanent Notes/Permanent Note 2026-01-16.md",
     "03 - Permanent Notes/Notes",
@@ -202,7 +202,6 @@
     "99 - Templates/Template MOC.md",
     "04 - Person Notes/People Notes/Person Note 2026-01-16-20-17-59.md",
     "04 - Person Notes/People Notes/Person Note 2026-01-16-20-01-37.md",
-    "04 - Person Notes/People/Myriam.md",
     "99 - Templates/Templates/04 - Person Notes - Person Note Template.md",
     "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
     "99 - Templates/Templates/02 - Literature Notes - Work Note Template.md",
@@ -211,9 +210,6 @@
     "04 - Person Notes/People/Person Note 2026-01-16-19-51-34.md",
     "04 - Person Notes/People/Person Note 2026-01-16-18-47-49.md",
     "04 - Person Notes/People/Person Note 2026-01-16-15-57-18.md",
-    "04 - Person Notes/People/Person Note 2026-01-16-15-57-04.md",
-    "04 - Person Notes/People/Person Note 2026-01-16-15-56-51.md",
-    "04 - Person Notes/People/Person Note 2026-01-16-15-56-14.md",
     "04 - Person Notes/People",
     "04 - Person Notes/People Notes",
     "02 - Literature Notes/Work Notes",
