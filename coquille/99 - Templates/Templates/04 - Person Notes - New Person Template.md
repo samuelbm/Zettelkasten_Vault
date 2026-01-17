@@ -17,7 +17,7 @@ tags:
 ---
 # Notes
 ```dataviewjs
-const folder = "04 - Person Notes/People Notes";
+const folder = "04 - Person Notes/People";
 const heading = "Things to remember";
 const targetName = dv.current().file.name;
 let pages = dv.pages(`"${folder}"`)
