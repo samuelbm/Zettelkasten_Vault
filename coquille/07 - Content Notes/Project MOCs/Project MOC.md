@@ -7,7 +7,7 @@ tags:
   - "#content"
 ---
 # Course Content
-[section 1 - test]
+[[section]]
 
 
 # References / Sources
