@@ -11,10 +11,14 @@
             "id": "e00fd69a3b710a96",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "99 - Templates/Templates/06 - Knowledge Notes Template.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "06 - Knowledge Notes Template"
             }
           }
         ]
@@ -182,9 +186,9 @@
   },
   "active": "e00fd69a3b710a96",
   "lastOpenFiles": [
+    "99 - Templates/Templates/06 - Knowledge Notes Template.md",
     "06 - Knowledge Notes/Knowledge Notes.md",
     "06 - Knowledge Notes/Knowledge Notes 1.md",
-    "99 - Templates/Templates/06 - Knowledge Notes Template.md",
     "06 - Knowledge Notes/Knowledge Notes MOC.md",
     "99 - Templates/Templates/00 - Daily Notes Template.md",
     "06 - Knowledge Notes Template",
