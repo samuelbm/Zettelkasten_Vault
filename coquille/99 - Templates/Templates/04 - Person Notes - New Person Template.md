@@ -55,13 +55,8 @@ for (let p of pages) {
     }
 }
 dv.list(allBullets);
-```
 
 
-
-
-
-<%*
 const dateStr = tp.date.now("YYYY-MM-DD-HH-mm-ss");  
 
 // Folder to move note into
@@ -72,5 +67,4 @@ const noteName = "Person Note " + dateStr;
 
 // Move the note
 await tp.file.move(`${folderPath}/People/${noteName}`);
-%>
-
+```
