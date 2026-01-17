@@ -20,19 +20,25 @@
               "icon": "lucide-file",
               "title": "06 - Knowledge Notes Template"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "35083cc7e54e3225",
+        "type": "tabs",
+        "children": [
           {
             "id": "ccc49df85fec3401",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Templates/Templates/00 - Daily Notes Template.md",
+                "file": "99 - Templates/Templates/05 - Meeting Notes Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 - Daily Notes Template"
+              "title": "05 - Meeting Notes Template"
             }
           }
         ]
@@ -198,7 +204,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "e00fd69a3b710a96",
+  "active": "ccc49df85fec3401",
   "lastOpenFiles": [
     "99 - Templates/Templates/00 - Daily Notes Template.md",
     "99 - Templates/Templates/06 - Knowledge Notes Template.md",
