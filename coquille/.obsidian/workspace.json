@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 - Templates/Templates/06 - Knowledge Notes Template.md",
+                "file": "99 - Templates/Templates/02 - Literature Notes - Work Note Template.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "06 - Knowledge Notes Template"
+              "title": "02 - Literature Notes - Work Note Template"
             }
           }
         ]
@@ -186,8 +186,10 @@
   },
   "active": "e00fd69a3b710a96",
   "lastOpenFiles": [
-    "06 - Knowledge Notes/Knowledge Note.md",
+    "99 - Templates/Templates/02 - Literature Notes - New Work Template.md",
+    "99 - Templates/Templates/02 - Literature Notes - Work Note Template.md",
     "99 - Templates/Templates/06 - Knowledge Notes Template.md",
+    "06 - Knowledge Notes/Knowledge Note.md",
     "06 - Knowledge Notes/Knowledge Notes.md",
     "06 - Knowledge Notes/Knowledge Notes 1.md",
     "06 - Knowledge Notes/Knowledge Notes MOC.md",
@@ -196,8 +198,6 @@
     "99 - Templates/Templates/03 - Permanent Notes Template.md",
     "99 - Templates/Templates/04 - Person Notes - Person Note Template.md",
     "99 - Templates/Templates/05 - Meeting Notes Template.md",
-    "99 - Templates/Templates/02 - Literature Notes - New Work Template.md",
-    "99 - Templates/Templates/02 - Literature Notes - Work Note Template.md",
     "05 - Meeting Notes/Meeting Note 2026-01-17-07-47-56.md",
     "03 - Permanent Notes/Permanent Note.md",
     "04 - Person Notes/People Notes/Person Note 2026-01-17-07-38-56.md",
