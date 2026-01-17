@@ -14,13 +14,11 @@ status: draft
 # References / Sources
 * 
 <%*
-const dateStr = tp.date.now("YYYY-MM-DD");  
-
-// Folder to move note into
+ // Folder to move note into
 const folderPath = "03 - Permanent Notes";
 
 // Prompt for note title
-const noteName = "Permanent Note " + dateStr;
+const noteName = "Permanent Note";
 
 // Move the note
 await tp.file.move(`${folderPath}/${noteName}`);
