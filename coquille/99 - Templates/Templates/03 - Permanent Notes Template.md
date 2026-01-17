@@ -5,7 +5,6 @@ tags:
   - "#permanent"
 status: draft
 ---
-
 # Context / Problem
 * 
 
@@ -14,7 +13,6 @@ status: draft
 
 # References / Sources
 * 
-
 <%*
 const dateStr = tp.date.now("YYYY-MM-DD");  
 
