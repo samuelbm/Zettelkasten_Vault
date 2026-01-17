@@ -5,8 +5,6 @@ id: <% tp.date.now("YYYYMMDDHHmmss") %>
 tags: person
 ---
 # Things to remember
-
-
 <%*
 const dateStr = tp.date.now("YYYY-MM-DD-HH-mm-ss");  
 
