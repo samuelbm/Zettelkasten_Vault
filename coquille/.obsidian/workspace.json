@@ -11,10 +11,14 @@
             "id": "e00fd69a3b710a96",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "02 - Literature Notes/Work Notes/Literature Note 2026-01-16.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Literature Note 2026-01-16"
             }
           }
         ]
@@ -182,6 +186,7 @@
   },
   "active": "e00fd69a3b710a96",
   "lastOpenFiles": [
+    "99 - Templates/Template MOC.md",
     "04 - Person Notes/People Notes/Person Note 2026-01-16-20-17-59.md",
     "04 - Person Notes/People Notes/Person Note 2026-01-16-20-01-37.md",
     "04 - Person Notes/People/Myriam.md",
@@ -208,7 +213,6 @@
     "02 - Literature Notes/Work Projects",
     "02 - Literature Notes",
     "99 - Templates/Templates/01 - Fleeting Notes Template.md",
-    "99 - Templates/Template MOC.md",
     "99 - Templates/Templates/07 - Content Notes - Project Note Template.md",
     "99 - Templates/Templates/07 - Content Notes - New Project Template.md",
     "99 - Templates/Templates/06 - Knowledge Notes Template.md",
