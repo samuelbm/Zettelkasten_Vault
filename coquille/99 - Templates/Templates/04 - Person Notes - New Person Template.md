@@ -10,7 +10,7 @@ children:
 friends:
 collegues:
 authors:
-id: 
+id: <% tp.date.now("YYYYMMDDHHmmss") %>
 tags:
   - "#person"
 ---
