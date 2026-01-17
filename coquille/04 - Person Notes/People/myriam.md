@@ -10,12 +10,13 @@ children:
 friends:
 collegues:
 authors:
-id: 20260116195305
+id: 20260116200117
 tags:
   - "#person"
   - "#notes"
 ---
 # Notes
+* 
 
 ```dataviewjs
 const folder = "04 - Person Notes/People Notes";
