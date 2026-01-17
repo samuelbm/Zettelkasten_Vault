@@ -26,4 +26,7 @@ async function ensureFileExists(filePath, content = "") {
   return false;    // file already existed
 }
 
+const knowledgeNotesMocFilePath = "";
+const wasYearsMocFileCreated =  await ensureFileExists(`${yearsMocFilePath}`);
+
 %>
