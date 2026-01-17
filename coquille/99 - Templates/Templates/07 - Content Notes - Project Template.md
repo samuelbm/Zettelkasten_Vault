@@ -16,8 +16,8 @@ tags:
 const folderPath = "07 - Content Notes";
 
 // Prompt for note title
-const noteName = "New Project";
+const noteName = "Project MOC";
 
 // Move the note
-await tp.file.move(`${folderPath}/Work Projects/${noteName}`);
+await tp.file.move(`${folderPath}/Projects MOC/${noteName}`);
 %>
