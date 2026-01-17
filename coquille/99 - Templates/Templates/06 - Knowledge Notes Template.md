@@ -14,20 +14,7 @@ tags:
 * 
 
 <%* 
-// template 1
-async function ensureFileExists(filePath, content = "") {
-  const file = app.vault.getAbstractFileByPath(filePath);
-  if (!file) {
-    await app.vault.create(filePath, content);
-    return true;   // file was created
-  }
-  return false;    // file already existed
-}
-
-const knowledgeNotesBasePath = "06 - Knowledge Notes";
-const knowledgeNotesMocFilePath = `${knowledgeNotesBasePath}/Knowledge Notes MOC.md`;
-const knowledgeNotesFilePath = `${knowledgeNotesBasePath}/Knowledge Notes`;
-
+const knowledgeNotesFilePath = `06 - Knowledge Notes/Knowledge Notes`;
 const wasKnowledgeMocFileCreated = await ensureFileExists(`${knowledgeNotesMocFilePath}`);
 await tp.file.move(`${knowledgeNotesFilePath}`);
 %>
