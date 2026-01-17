@@ -1,12 +1,8 @@
 [[Meta Template MOC]]
 [[00 - Daily Notes Template]]
 [[01 - Fleeting Notes Template]]
-[[02 - Literature Notes - New Work Template]]
-[[02 - Literature Notes - Work Note Template]]
+
 [[03 - Permanent Notes Template]]
-[[04 - Person Notes - New Person Template]]
-[[04 - Person Notes - Person Note Template]]
+
 [[05 - Meeting Notes Template]]
 [[06 - Knowledge Notes Template]]
-[[07 - Content Notes - New Project Template]]
-[[07 - Content Notes - Project Note Template]]
