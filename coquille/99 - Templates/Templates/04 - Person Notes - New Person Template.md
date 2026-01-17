@@ -16,6 +16,7 @@ tags:
   - "#notes"
 ---
 # Notes
+* 
 <%* 
 const folderPath = "04 - Person Notes";
 // Prompt for note title
