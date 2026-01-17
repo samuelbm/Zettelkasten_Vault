@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "adf8297336e56e77",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "135aca3b422d2503",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99 - Templates/Templates/04 - Person Notes - Person Note Template.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "04 - Person Notes - Person Note Template"
-            }
-          }
-        ]
-      },
-      {
         "id": "d61c4ed4a1304aa4",
         "type": "tabs",
         "children": [
@@ -204,7 +184,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "135aca3b422d2503",
+  "active": "419d0b2773c3cd0d",
   "lastOpenFiles": [
     "99 - Templates/Templates/04 - Person Notes - New Person Template.md",
     "99 - Templates/Templates/04 - Person Notes - Person Note Template.md",
